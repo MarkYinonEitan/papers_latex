@@ -1,0 +1,34 @@
+% Define block styles
+{
+sep=0pt]
+\tikzstyle{data} = [rectangle, draw, 
+    text width=5em, text centered, rounded corners, minimum height=4em]
+
+\tikzstyle{proc} = [rectangle, draw,  text width=5em, text centered, rounded corners=0.59cm, minimum height=4em]
+
+\small
+    
+\begin{tikzpicture}[node distance = 2.5cm, auto]
+    % Place nodes
+    \node [data] (pdb) {PDB structure};
+    \node [proc, right=0.5cm  of pdb] (pdb_smpl) {Structure Sampling};
+    \node [data,right=0.5cm  of pdb_smpl] (c_loc) {Candidate Locations};
+    \node [data,below=0.5cm  of c_loc] (lbls) {Labels};
+    \node [proc, right=0.5cm  of c_loc] (feat) {Feature Extraction};
+    \node [data,right=0.5cm  of feat] (ftrs) {Features};
+    \node [proc, right=0.5cm  of ftrs] (trng) {Training};
+	\node [data,right=0.5cm  of trng] (cnns) {CNN classifier};
+
+    \draw (pdb) -- (pdb_smpl);
+    \draw[->] (pdb_smpl) -- (c_loc);
+
+%    \path [line] (identify) -- (evaluate);
+%    \path [line] (evaluate) -- (decide);
+%    \path [line] (decide) -| node [near start] {yes} (update);
+%    \path [line] (update) |- (identify);
+%    \path [line] (decide) -- node {no}(stop);
+%    \path [line,dashed] (expert) -- (init);
+%    \path [line,dashed] (system) -- (init);
+%    \path [line,dashed] (system) |- (evaluate);
+\end{tikzpicture}
+}

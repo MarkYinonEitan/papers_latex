@@ -1,0 +1,116 @@
+\subsection{The Task}
+Given an electron density map of a protein/macromolecular assembly, our task is to detect voxels in this map, which correspond to the location of the centers of mass of specific amino acids.
+The goal is to report only those amino acids, which have been detected with high confidence, which we call "anchors".
+The two main building blocks of our method are a \textbf{classification} CNN and a \textbf{detection} algorithm.
+The detection algorithm generates candidates for the classification CNN and filters out candidates of expected low accuracy. 
+
+\subsection{A CNN for the classification task}
+Convolutional neural networks (CNN) were proposed by Yann LeCun in 1989 for zip code recognition \cite{Y.LeCunB.BoserJ.S.DenkerD.HendersonR.E.Howard1989BackpropagationRecognition}.
+A CNN consists of alternating convolutional and pooling layers optionally followed by fully connected layers.
+The first and last layers are  the input and  output layer respectively, while the other layers are referred to as hidden layers.
+
+Formally, a CNN of depth $D$  is a composition of $D$  parametrized functions $\{f_1,\cdots,f_D\}$, which maps an input vector $\xf$ to an output vector $\yf$:
+\begin{equation}\label{cnn1}
+	\yf = f(\xf) = f_D(\zf,w_D,b_D) \circ, \ldots, \circ f_1(\xf,w_1,b_1),
+\end{equation}
+where $w_k$ and $b_k$ are the weights and biases vectors for the function $f_k$.  The functions $f_k$ are the previously mentioned layers.
+
+Given a set of labeled data pairs $\{(\xf^i,\yf^i)\}_{i=1}^M$, the training process of a CNN defined by \eqref{cnn1} is a process of a numerical solution of the optimization problem:
+\begin{equation}
+\begin{array}{l}
+\mbox{Find } \{w_k, b_k\}_{k=1}^D \mbox{ which minimize:} \\
+\frac{1}{M} \sum\limits_{i=1}^{M}d\left(f(\xf_i),\yf_i\right),
+\end{array}
+\end{equation}
+where $d(\cdot,\cdot)$ is the loss function expressing a penalty for an incorrect classification.
+For a comprehensive discussion of CNNs the reader is referred to  \cite{Goodfellow2016DeepLearning}.
+
+\subsection{Softmax CNN for the Amino Acids Classification}
+We formulate the amino acids classification problem as a multiclass classification of volume cubes of a cryo-EM map.
+For a cryo EM map $E \in \mathbb{R}^{Length \times Height \times Width}$, denote  by $\xf \in \mathbb{R}^{L \times L  \times L}$  (L in our experiments was $11 \AA$)  a local volume cube of the map, which is examined to contain the center of mass of an amino acid (of a specific type) in the proximity of the local cube's center.
+Let $c \in \{1,\cdots,C\}$ denote the corresponding label/type of the volume  cube $\xf$, in which $C$ is the total number of classes.  In our case C=21, which represent the 20 amino acids as well  as a local volume, which does not contain a center of mass of an amino acid close to its center. 
+
+We train a CNN network of depth $D$, such that
+\begin{equation}
+\label{aa type}
+c = \argmax_i \pf\left(\yf_D(\xf)\right),
+\end{equation}
+where $\pf\left(\yf_D(\xf)\right) = f(\xf)$ is the output of the last layer of the CNN obtained by applying the softmax function to output $\xf$ of the previous layer.
+The softmax function $\pf(\yf) = (p_1(\yf),\cdots,p_C(\yf))$  is used to transform the vector of $C$ (arbitrary) real values to a vector, where each value is in the $(0,1)$ interval and the sum of all the values is $1$.  It is defined as:
+\begin{equation}
+p_i(\yf) = \nicefrac{e^{y_i}}{\sum\limits_{k=1}^Ce^{y_k}}.
+\end{equation}
+Since $\sum\limits_i p_i(\yf) =1$ and $0\leq p_i(\yf) \leq 1$, the output of the softmax function is often (informally) treated as probabilities of a cube $\xf$ to have  label $i$.
+
+\subsection{Network Architecture and Training Details}
+The detailed architecture of the applied softmax CNN is presented in Table ~\ref{ta}.
+We use the rectified linear (ReLU) activition function which is known to provide the best learning rate in image classification tasks \cite{Krizhevsky}.
+Keras \cite{Chollet2015Keras} is used to implement and train the softmax CNN.
+The training time for one epoch was 3 minutes for one million samples on a server with 4 NVIDIA Titan black GPUs, each with 2880 cores.
+
+\subsection{Preparation of the Datasets for the Training Stage}
+
+We describe the datasets used for training of the CNN and their structure.
+The input to this stage are pairs of a cryoEM map with an atomic structure fitted to it.
+From each map we extract a set of volume cubes of size $L \times L \times L$ (L in our experiments is $11 \AA$) centered at each amino acid of the map. Such a cube is labeled by the fitting amino acid type.  In practice, we, usually, label 8 cubes with this label, namely, if the coordinates of the amino acid center of mass are not integer, we assign this label to all the nearby cubes with integer coordinates at their center.  We normalize the density of a labeled cube so that the mean density is 0 and the standard deviation is 1.  This is due to the fact that the average density of a cryoEM map varies between different regions.  In addition to the amino-acid induced cubes, we sample a sufficient number of density cubes that do not represent centers of mass of amino acids and assign them the 21'st ("zero") label.
+
+The labeled volume cubes from all the training maps of the dataset are fed into the CNN training procedure. 
+
+We have applied the above described procedure to several diverse datasets.
+Since there is not enough experimental data to perform proper training, we have used
+both available experimental datasets as well as datasets of simulated EM maps at the required resolutions.  Simulated and experimental datasets were created for each of the resolution spans presented in Table ~\ref{t0}.
+
+The \textbf {simulated } dataset consists of structures from the Dunbrack Rotamers Library \cite{Shapovalov2011ARegressions} and cryo EM maps created using the UCSF Chimera \cite{Pettersen2004UCSFAnalysis} \textit{molmap} command. Each map was created at a randomly selected resolution within a given resolution span.
+
+The \textbf{experimental} dataset consists of publicly available cryo EM maps from the EMDataBank \cite{Lawson2016EMDataBank3DEM} within the required resolution span together with aligned/fitted PDB structures.
+
+A \textbf{data augmentation } procedure was employed to increase the dataset and reduce the overfitting effect.
+Each map was rotated at a random angle together with the corresponding fitted atomic-resolution model and the rotated map and model were added to the dataset.
+We performed 10 rotations for each protein map.
+Since a virus structure already consists of repetitions of small sub-structures at different poses, virus maps were excluded from the augmentation procedure.
+
+\subsection{Detection}
+The workflow of the  proposed detection method is illustrated in Figure 2.
+In the preprocessing phase an input cryoEM map is resampled to a grid of $1 \AA \times 1 \AA \times 1 \AA $ voxels.  
+Using the sliding window approach we sample the volume cubes from the resampled map (see Figure).
+Cubes with average density value less than the average density of the map are filtered out.
+The remaining cubes density is normalized to 0 mean  and standard deviation 1.
+For each cube $\xf$ we obtain the predicted value from the three pretrained classification CNNs: $N_S(\xf)$, $N_E(\xf)$, $N_{ES}(\xf)$.
+
+The predicted label and confidence are calculate by combination of the results of three CNNs.
+The combination method depends on the amino acid type (Table~\ref{t31}), and is one of the following: one of $N_S(\xf)$, $N_E(\xf)$, $N_{ES}(\xf)$, majority of $N_S(\xf)$,$N_E(\xf)$,$N_{ES}(\xf)$, mean value of  $N_S(\xf)$,$N_E(\xf)$,$N_{ES}(\xf)$,or  mean value of  $N_S(\xf)$, $N_E(\xf)$.
+A cube centre is marked as an amino acid centre if the resulting confidence is above a threshold.  
+The threshold value depends on the amino acid type and calculated in the training phase.
+
+%%% figures and tables
+\begin{table}
+\caption{ Architecture of Softmax CNN for Amino Acids Classification}\label{ta}
+\begin{center}
+\begin{tabular}{ | m{1.5em} | m{2cm} | m{2.4cm}|m{2.4cm}| }
+
+ \hline
+ Layer & Type & Filter Dimensions & Input/Output Dimensions \\
+ \hline
+ \hline
+1 &  Input & & $11 \times 11 \times 11 \times 1 $ \\
+\hline
+2 &  3D Conv & $3 \times 3 \times 3  \times 1 \times 50 $ & $9 \times 9 \times 9 \times 50 $ \\
+\hline
+3 &  3D Conv & $2 \times 2 \times 2 \times 50 \times 50 $ & $8 \times 8 \times 8 \times 50 $ \\
+\hline
+4 &  Max Pool & $2 \times 2 \times 2  $ & $4 \times 4 \times 4 \times 50 $ \\
+\hline
+5 &  Fully Connected &  $4 \times 4 \times 4 \times 50 \times 100 $ & $1 \times 100 $ \\
+\hline
+6 &  SoftMax &  $1 \times 100 $ & $1 \times 21 $ \\
+\hline
+
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{figure}
+  \centering
+	\input{pics/det_scheme.tex}
+  \caption{Workflow for the detection procedure  }\label{f:det_scheme}
+\end{figure}

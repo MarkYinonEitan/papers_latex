@@ -1,0 +1,84 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{cite}\usepackage[latin1]{inputenc}
+\usepackage{tikz}
+\usepackage{subcaption}
+\usepackage{tabularx}
+\usepackage{url}
+\usepackage{nicefrac}
+\usetikzlibrary{positioning}
+\usetikzlibrary{shapes,arrows}
+
+
+%COMMANDS
+\newcommand{\argmax}{\mathop{\mathrm{argmax}}\limits}
+\newcommand{\xf}{\mathbf{x}}
+\newcommand{\yf}{\mathbf{y}}
+\newcommand{\zf}{\mathbf{z}}
+\newcommand{\pf}{\mathbf{p}}
+
+
+\newcommand{\yfh}{\hat{\mathbf{y}}}
+
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\bibliographystyle{bst2aurth}
+\begin{document}
+
+\title{AAnchor: CNN guided detection of anchor amino acids in high resolution cryo-EM density maps \\
+%{\footnotesize \textsuperscript{*}Note: Sub-titles are not captured in Xplore and
+%should not be used}
+\thanks{This work has been supported in part by Len Blavatnik and the Blavatnik
+Family Foundation and by the ICORE program of the Budgeting and Planning
+Committee and Israel Science Foundation. M.R. was supported in part by a Ph.D. fellowship from the Edmond J. Safra Center for Bioinformatics at Tel Aviv University.}
+}
+\author{\IEEEauthorblockN{Mark Rozanov}
+\IEEEauthorblockA{\textit{Blavatnik School of Computer Science} \\
+\textit{Tel Aviv University}, 
+Israel \\
+markroza@tau.ac.il}
+\and
+\IEEEauthorblockN{Haim J. Wolfson}
+\IEEEauthorblockA{\textit{Blavatnik School of Computer Science} \\
+\textit{Tel Aviv University}, 
+Israel \\
+wolfson@tau.ac.il}
+}
+%\tableofcontents
+\newpage
+\maketitle
+\pagenumbering{arabic}
+
+%\onecolumn
+%\Large
+
+
+\begin{abstract}
+\input{abstrct}
+\end{abstract}
+
+\begin{IEEEkeywords}
+cryo-EM maps, proteins, molecular modeling, machine learning, CNN.
+\end{IEEEkeywords}
+\section{Introduction}
+\input{introduction}
+\section{Methods}
+\input{methods}
+\section{Experimental Results}
+\input{results}
+\section{Web server Implementation}
+\input{srvr}
+\section{Conclusions}
+\input{cncl}
+\input{references}
+
+\end{document}

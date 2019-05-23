@@ -1,0 +1,45 @@
+Atomic accuracy models of protein structures are an invaluable tool for the elucidation of protein function.  The recent "resolution revolution" \cite{kuhlbrandt2014resolution} in cryo electron microscopy (cryoEM) has led to an ever increasing number of near atomic resolution density maps deposited in the EM databank EMDB \cite{Lawson2016EMDataBank3DEM}.  While in 2002 the best structure deposited was at $9 \AA$ resolution, recently (\cite{Bartesaghi20152.2Inhibitor,Banerjee20162.3Inhibition}) key structures have been resolved at resolution better than $2.5 \AA$ .
+
+Most of the techniques for modeling protein structures into intermediate resolution ($5 - 10 \;\AA$) maps are based on rigid fitting of template protein structures into these maps.  Many of these methods (\cite{Jiang2001,lasker2007ematch,Yu2008,Rusu2012,Si2012}) use secondary structures as anchors for their fitting procedure. 
+
+At resolutions better than $4-5 \AA$, the goal is more ambitious and de novo modeling techniques are being exploited. Some of them are adaptations of the standard X-ray crystallography modeling methods, however these tend to be time consuming. Recently, several de-novo modeling techniques have been developed to deal specifically with cryoEM density maps\cite{DiMaio2016}.  Pathwalking \cite{Chen2016} detects first pseudo-atom anchors, which are based on high density local regions, and then applies the travelling salesperson (TSP) combinatorial optimization algorithm to detect a long enough path which should model the protein backbone. MAINMAST \cite{Terashi2018} applies quite a similar line of reasoning. It first detects a set of anchor points in the map, where the local density is above a given threshold (so, called, Local Dense Points).  The threshold is set in such a way that the number of LDPs is much larger than the number of residues in the protein and roughly about half of its heavy atoms.  A graph is built by connecting nearby points and a minimun spanning tree (MST) is calculated for this graph.  Then, after a refinement procedure, the longest path in the MST is detected and the protein sequence is threaded along this path.   A recently published method \cite{wang2015novo}, which is based on the ideas of the Rosetta modeling suite, fits short sequence based structure fragment templates into the density map and applies a Monte Carlo simulated annealing procedure to detect a set of mutually compatible fragments.  All of the above mentioned procedures require prior segmentation of the density map into its various protein chains.
+
+Prior detection of reliable {\bf amino acid anchors} in the density map, namely having knowledge of even a relatively small number of amino acids, whose identity and location has been established with high confidence 
+can be used to guide the various de-novo modeling methods, as well as serve as a starting point for the development of novel methods. In particular, it could lead to the development of novel techniques, which do not require prior segmentation of the EM density map.   While in high resolution maps (roughly,$3.5 \;\AA$ or better), sidechains become  visible and individual rotamers may be distinguished (\cite{DiMaio2016},\cite{Cassidy2018}), no automated method has been suggested to detect specific amino acids in a cryo-EM density map.
+
+In this work we present a machine learning (ML) algorithm nicknamed {\bf AAnchor} (amino-acid anchor) for the detection and localization of amino acids in a high resolution cryo EM density map. 
+The two primary goals of this study are 
+(i) to develop an automatic tool for the detection and classification of amino acids in a near atomic resolution cryo EM map; and 
+(ii) to provide a quantitative analysis of the ability to detect a specific amino acid in an experimental cryo EM map.
+
+Detection of an amino acid in a density map can be decomposed into two tasks: 
+\begin{itemize}
+\item
+\textbf{Classification} is defined as assigning  one of 21 labels (20 amino acids plus none) to a voxel and its close neighborhood. A voxel is labeled as center of mass of an amino acid, if it is closer than $1.5 \;\AA$ to this amino acid's actual center of mass.
+\item
+\textbf{Detection} is defined as the localization of amino acids of a specific type in the cryo EM map.
+The output of this task are the coordinates (of the center of mass) and type of the detected amino acids followed by an estimated detection confidence.
+\end{itemize}
+Both the classification and the detection tasks have been intensively studies in the fields of image processing and computer vision.
+Some of the best results for the classification task have been achieved using deep convolutional neural networks (CNNs)  \cite{Krizhevsky},\cite{Taigman}.
+The detection task is usually solved by combining a classification algorithm with some sampling technique (such as sliding window )	and post processing filtering (such as SVM \cite{Girshick2014}).
+
+Inspired by the similarity of our tasks to analogous image processing tasks, we built a CNN that classifies each voxel into 21 types. 
+We  trained and tested it on simulated and experimental cryo EM maps at various resolutions.
+Using the sliding window approach followed by  post-processing we subsequently applied  the trained  classification CNN to the detection task.  
+
+The preliminary results of our algorithm are quite encouraging.
+For example, on the $3.1 \AA$ cryo EM map of lysenin pore \cite{Bokori-Brown2016Cryo-EMProtein}, the algorithm localizes above one hundred amino acids of different types with confidence above $80 \%$.
+These preliminary results also indicate that the quality of detection is best for amino acids, which have a small number of rotamers and a large enough training set.  This last observation also explains, why
+contrary to expectation, the results for  $2.9  \AA$ and $3.1 \;\AA$ resolution maps are better then those for $2.2 \;\AA$ maps. This is due to the limited training data set existing for the better resolution maps.  Thus, with the rapid increase in high resolution cryoEM structures and the availability of larger trainng sets, the results of our machine learning based methodology are expected to improve significantly.
+
+
+
+
+
+
+
+
+
+
+

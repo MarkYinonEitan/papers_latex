@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: ../bst2aurth.bst
+Illegal, another \bibstyle command---line 142 of file main.aux
+ : \bibstyle
+ :          {../bst2aurth}
+I'm skipping whatever remains of this command
+Database file #1: ../men_edit.bib
+Warning--empty booktitle in Si2012
+Warning--can't use both volume and number fields in Si2012
+You've used 30 entries,
+            1814 wiz_defined-function locations,
+            663 strings with 10252 characters,
+and the built_in function-call counts, 8015 in all, are:
+= -- 801
+> -- 260
+< -- 9
++ -- 116
+- -- 58
+* -- 507
+:= -- 1167
+add.period$ -- 90
+call.type$ -- 30
+change.case$ -- 29
+chr.to.int$ -- 0
+cite$ -- 32
+duplicate$ -- 353
+empty$ -- 805
+format.name$ -- 58
+if$ -- 1851
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 29
+newline$ -- 151
+num.names$ -- 30
+pop$ -- 89
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 222
+stack$ -- 0
+substring$ -- 733
+swap$ -- 107
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 87
+width$ -- 32
+write$ -- 327
+(There was 1 error message)

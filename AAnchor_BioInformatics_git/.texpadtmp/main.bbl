@@ -1,0 +1,171 @@
+\begin{thebibliography}{10}
+
+\bibitem{kuhlbrandt2014resolution}
+W.~K{\"u}hlbrandt.
+\newblock The resolution revolution.
+\newblock {\em Science}, 343(6178):1443--1444, 2014.
+
+\bibitem{Lawson2016EMDataBank3DEM}
+C.~L. Lawson, et~al.
+\newblock Emdatabank unified data resource for 3dem.
+\newblock {\em Nucleic acids research}, 44(D1):D396--D403, 2015.
+
+\bibitem{Bartesaghi20152.2Inhibitor}
+A.~Bartesaghi, et~al.
+\newblock {2.2 A resolution cryo-EM structure of {$\beta$}-galactosidase in
+  complex with a cell-permeant inhibitor}.
+\newblock {\em Science}, 348(6239):1147--1151, 2015.
+
+\bibitem{Banerjee20162.3Inhibition}
+S.~Banerjee, et~al.
+\newblock 2.3 {\aa} resolution cryo-em structure of human p97 and mechanism of
+  allosteric inhibition.
+\newblock {\em Science}, pages 871--875, 2016.
+
+\bibitem{Jiang2001}
+W.~Jiang, et~al.
+\newblock {Bridging the information gap: Computational tools for intermediate
+  resolution structure interpretation}.
+\newblock {\em J. Mol. Biol.}, 308(5):1033--1044, 2001.
+
+\bibitem{lasker2007ematch}
+K.~Lasker, et~al.
+\newblock Ematch: discovery of high resolution structural homologues of protein
+  domains in intermediate resolution cryo-em maps.
+\newblock {\em IEEE/ACM TCBB}, 4(1):28--39, 2007.
+
+\bibitem{Yu2008}
+Z.~Yu and C.~Bajaj.
+\newblock Computational approaches for automatic structural analysis of large
+  biomolecular complexes.
+\newblock {\em IEEE/ACM TCBB}, 5(4):568--582, 2008.
+
+\bibitem{Rusu2012}
+M.~Rusu and W.~Wriggers.
+\newblock Evolutionary bidirectional expansion for the tracing of alpha helices
+  in cryo-electron microscopy reconstructions.
+\newblock {\em J. Struct. Biol.}, 177(2):410--419, 2012.
+
+\bibitem{Si2012}
+D.~Si, et~al.
+\newblock A machine learning approach for the identification of protein
+  secondary structure elements from electron cryo-microscopy density maps.
+\newblock volume~97, pages 698--708. Wiley Online Library, 2012.
+
+\bibitem{DiMaio2016}
+F.~DiMaio and W.~Chiu.
+\newblock Tools for model building and optimization into near-atomic resolution
+  electron cryo-microscopy density maps.
+\newblock In {\em Methods in enzymology}, volume 579, pages 255--276. Elsevier,
+  2016.
+
+\bibitem{Chen2016}
+M.~Chen, et~al.
+\newblock De novo modeling in cryo-em density maps with pathwalking.
+\newblock {\em Journal of structural biology}, 196(3):289--298, 2016.
+
+\bibitem{Terashi2018}
+G.~Terashi and D.~Kihara.
+\newblock De novo main-chain modeling with mainmast in 2015/2016 em model
+  challenge, 2018.
+
+\bibitem{wang2015novo}
+R.~Y.-R. Wang, et~al.
+\newblock De novo protein structure determination from near-atomic-resolution
+  cryo-em maps.
+\newblock {\em Nature methods}, 12(4):335--338, 2015.
+
+\bibitem{Cassidy2018}
+C.~K. Cassidy, et~al.
+\newblock {CryoEM-based hybrid modeling approaches for structure
+  determination}.
+\newblock {\em Curr. Opin. MicroBio.}, 43:14--23, 2018.
+
+\bibitem{Krizhevsky}
+A.~Krizhevsky, et~al.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Adv. Neural Inf. Process Syst.}, pages 1097--1105, 2012.
+
+\bibitem{Taigman}
+Y.~Taigman, et~al.
+\newblock Deepface: Closing the gap to human-level performance in face
+  verification.
+\newblock In {\em Proc. IEEE CVPR}, pages 1701--1708, 2014.
+
+\bibitem{Girshick2014}
+R.~Girshick, et~al.
+\newblock Rich feature hierarchies for accurate object detection and semantic
+  segmentation.
+\newblock In {\em Proc. IEEE CVPR}, pages 580--587, 2014.
+
+\bibitem{Bokori-Brown2016Cryo-EMProtein}
+M.~Bokori-Brown, et~al.
+\newblock Cryo-em structure of lysenin pore elucidates membrane insertion by an
+  aerolysin family protein.
+\newblock {\em Nature Commun.}, 7:11293, 2016.
+
+\bibitem{Y.LeCunB.BoserJ.S.DenkerD.HendersonR.E.Howard1989BackpropagationRecognition}
+Y.~LeCun, et~al.
+\newblock Backpropagation applied to handwritten zip code recognition.
+\newblock {\em Neural computation}, 1(4):541--551, 1989.
+
+\bibitem{Goodfellow2016DeepLearning}
+I.~Goodfellow, et~al.
+\newblock {\em {Deep Learning}}.
+\newblock MIT Press, 2016.
+
+\bibitem{Chollet2015Keras}
+F.~Chollet et~al.
+\newblock Keras, 2015.
+
+\bibitem{Shapovalov2011ARegressions}
+M.~V. Shapovalov and R.~L. Dunbrack~Jr.
+\newblock A smoothed backbone-dependent rotamer library for proteins derived
+  from adaptive kernel density estimates and regressions.
+\newblock {\em Structure}, 19(6):844--858, 2011.
+
+\bibitem{Pettersen2004UCSFAnalysis}
+E.~F. Pettersen, et~al.
+\newblock Ucsf chimera - a visualization system for exploratory research and
+  analysis.
+\newblock {\em J.Comp. Chem.}, 25(13):1605--1612, 2004.
+
+\bibitem{Fawcett2006AnAnalysis}
+T.~Fawcett.
+\newblock {An introduction to ROC analysis}.
+\newblock {\em Pattern Recognition Letters}, 27(8):861--874, 2006.
+
+\bibitem{Guo2017OnNetworks}
+C.~Guo, et~al.
+\newblock On calibration of modern neural networks.
+\newblock In {\em Proceedings of the 34th Int. Conf. on Machine Learning},
+  2017.
+
+\bibitem{Dong2017Antibody-inducedB14}
+Y.~Dong, et~al.
+\newblock Antibody-induced uncoating of human rhinovirus b14.
+\newblock {\em Proc. Natl. Acad. Sci.}, 114(30):8017--8022, 2017.
+
+\bibitem{Merk2016BreakingDiscovery}
+A.~Merk, et~al.
+\newblock Breaking cryo-em resolution barriers to facilitate drug discovery.
+\newblock {\em Cell}, 165(7):1698--1707, 2016.
+
+\bibitem{jiang2015atomic}
+J.~Jiang, et~al.
+\newblock Atomic structure of anthrax protective antigen pore elucidates toxin
+  translocation.
+\newblock {\em Nature}, 521(7553):545, 2015.
+
+\bibitem{Naseem2010LinearRecognition}
+I.~Naseem, et~al.
+\newblock Linear regression for face recognition.
+\newblock {\em IEEE Trans. Pattern Anal. Mach. Intell}, 32(11):2106--2112,
+  2010.
+
+\bibitem{Long2015FullySegmentation}
+J.~Long, et~al.
+\newblock Fully convolutional networks for semantic segmentation.
+\newblock In {\em Proc. IEEE CVPR}, pages 3431--3440, 2015.
+
+\end{thebibliography}

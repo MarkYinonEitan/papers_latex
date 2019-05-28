@@ -1,5 +1,5 @@
-\documentclass[conference]{IEEEtran}
-\IEEEoverridecommandlockouts
+\documentclass[twocolumn, 10pt]{article}
+%\IEEEoverridecommandlockouts
 % The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts}
@@ -15,6 +15,7 @@
 \usepackage{nicefrac}
 \usetikzlibrary{positioning}
 \usetikzlibrary{shapes,arrows}
+\usepackage{natbib}
 
 
 %COMMANDS
@@ -32,53 +33,46 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
 \bibliographystyle{bst2aurth}
+%\bibliographystyle{abbrvnat}
+\setcitestyle{authoryear , aysep={ } ,open={(},close={)}}
+
+
+
 \begin{document}
 
-\title{AAnchor: CNN guided detection of anchor amino acids in high resolution cryo-EM density maps \\
-%{\footnotesize \textsuperscript{*}Note: Sub-titles are not captured in Xplore and
-%should not be used}
-\thanks{This work has been supported in part by Len Blavatnik and the Blavatnik
-Family Foundation and by the ICORE program of the Budgeting and Planning
-Committee and Israel Science Foundation. M.R. was supported in part by a Ph.D. fellowship from the Edmond J. Safra Center for Bioinformatics at Tel Aviv University.}
-}
-\author{\IEEEauthorblockN{Mark Rozanov}
-\IEEEauthorblockA{\textit{Blavatnik School of Computer Science} \\
-\textit{Tel Aviv University}, 
-Israel \\
-markroza@tau.ac.il}
-\and
-\IEEEauthorblockN{Haim J. Wolfson}
-\IEEEauthorblockA{\textit{Blavatnik School of Computer Science} \\
-\textit{Tel Aviv University}, 
-Israel \\
-wolfson@tau.ac.il}
-}
+\title{AAnchor: CNN guided detection of anchor amino acids in high resolution cryo-EM density maps} 
+
+\author{Mark Rozanov\\  \textit{Blavatnik School of Computer Science,Tel Aviv University} \\
+\and Haim J. Wolfson  \\ \textit{Blavatnik School of Computer Science,Tel Aviv University}}
 %\tableofcontents
+
+
+
 \newpage
-\maketitle
 \pagenumbering{arabic}
 
-%\onecolumn
+%
 %\Large
+\twocolumn
+\maketitle
 
+%\begin{abstract}
+\section{Abstract}
 
-\begin{abstract}
 \input{abstrct}
-\end{abstract}
+%\end{abstract}
 
-\begin{IEEEkeywords}
-cryo-EM maps, proteins, molecular modeling, machine learning, CNN.
-\end{IEEEkeywords}
 \section{Introduction}
 \input{introduction}
 \section{Methods}
 \input{methods}
 \section{Experimental Results}
 \input{results}
-\section{Web server Implementation}
-\input{srvr}
+%\section{Web server Implementation}
+%\input{srvr}
 \section{Conclusions}
 \input{cncl}
+
 \input{references}
 
 \end{document}

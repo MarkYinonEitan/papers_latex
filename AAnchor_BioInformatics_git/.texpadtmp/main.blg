@@ -2,52 +2,52 @@ This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: ../bst2aurth.bst
-Illegal, another \bibstyle command---line 142 of file main.aux
+Illegal, another \bibstyle command---line 167 of file main.aux
  : \bibstyle
  :          {../bst2aurth}
 I'm skipping whatever remains of this command
 Database file #1: ../men_edit.bib
 Warning--empty booktitle in Si2012
 Warning--can't use both volume and number fields in Si2012
-You've used 30 entries,
+You've used 29 entries,
             1814 wiz_defined-function locations,
-            663 strings with 10252 characters,
-and the built_in function-call counts, 8015 in all, are:
-= -- 801
-> -- 260
-< -- 9
-+ -- 116
-- -- 58
-* -- 507
-:= -- 1167
-add.period$ -- 90
-call.type$ -- 30
-change.case$ -- 29
+            658 strings with 10085 characters,
+and the built_in function-call counts, 7612 in all, are:
+= -- 759
+> -- 251
+< -- 8
++ -- 112
+- -- 56
+* -- 488
+:= -- 1119
+add.period$ -- 87
+call.type$ -- 29
+change.case$ -- 28
 chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 353
-empty$ -- 805
-format.name$ -- 58
-if$ -- 1851
+cite$ -- 31
+duplicate$ -- 330
+empty$ -- 764
+format.name$ -- 56
+if$ -- 1749
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 29
-newline$ -- 151
-num.names$ -- 30
-pop$ -- 89
+int.to.str$ -- 29
+missing$ -- 28
+newline$ -- 146
+num.names$ -- 29
+pop$ -- 83
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 222
+skip$ -- 202
 stack$ -- 0
-substring$ -- 733
-swap$ -- 107
-text.length$ -- 9
+substring$ -- 693
+swap$ -- 94
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 87
-width$ -- 32
-write$ -- 327
+while$ -- 83
+width$ -- 31
+write$ -- 316
 (There was 1 error message)

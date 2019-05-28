@@ -81,23 +81,6 @@ C.~K. Cassidy, et~al.
   determination}.
 \newblock {\em Curr. Opin. MicroBio.}, 43:14--23, 2018.
 
-\bibitem{Krizhevsky}
-A.~Krizhevsky, et~al.
-\newblock Imagenet classification with deep convolutional neural networks.
-\newblock In {\em Adv. Neural Inf. Process Syst.}, pages 1097--1105, 2012.
-
-\bibitem{Taigman}
-Y.~Taigman, et~al.
-\newblock Deepface: Closing the gap to human-level performance in face
-  verification.
-\newblock In {\em Proc. IEEE CVPR}, pages 1701--1708, 2014.
-
-\bibitem{Girshick2014}
-R.~Girshick, et~al.
-\newblock Rich feature hierarchies for accurate object detection and semantic
-  segmentation.
-\newblock In {\em Proc. IEEE CVPR}, pages 580--587, 2014.
-
 \bibitem{Bokori-Brown2016Cryo-EMProtein}
 M.~Bokori-Brown, et~al.
 \newblock Cryo-em structure of lysenin pore elucidates membrane insertion by an
@@ -113,6 +96,11 @@ Y.~LeCun, et~al.
 I.~Goodfellow, et~al.
 \newblock {\em {Deep Learning}}.
 \newblock MIT Press, 2016.
+
+\bibitem{Krizhevsky}
+A.~Krizhevsky, et~al.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Adv. Neural Inf. Process Syst.}, pages 1097--1105, 2012.
 
 \bibitem{Chollet2015Keras}
 F.~Chollet et~al.
@@ -162,6 +150,12 @@ I.~Naseem, et~al.
 \newblock Linear regression for face recognition.
 \newblock {\em IEEE Trans. Pattern Anal. Mach. Intell}, 32(11):2106--2112,
   2010.
+
+\bibitem{Girshick2014}
+R.~Girshick, et~al.
+\newblock Rich feature hierarchies for accurate object detection and semantic
+  segmentation.
+\newblock In {\em Proc. IEEE CVPR}, pages 580--587, 2014.
 
 \bibitem{Long2015FullySegmentation}
 J.~Long, et~al.

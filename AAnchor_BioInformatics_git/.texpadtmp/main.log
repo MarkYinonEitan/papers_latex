@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.29)  23 MAY 2019 10:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.29)  24 MAY 2019 14:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7,115 +7,23 @@ entering extended mode
 (./main.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
-Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
--- See the "IEEEtran_HOWTO" manual for usage information.
--- http://www.michaelshell.org/tex/ieeetran/
-\@IEEEtrantmpdimenA=\dimen102
-\@IEEEtrantmpdimenB=\dimen103
-\@IEEEtrantmpdimenC=\dimen104
-\@IEEEtrantmpcountA=\count80
-\@IEEEtrantmpcountB=\count81
-\@IEEEtrantmpcountC=\count82
-\@IEEEtrantmptoksA=\toks14
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
--- Using 8.5in x 11in (letter) paper.
--- Using PDF output.
-\@IEEEnormalsizeunitybaselineskip=\dimen105
--- This is a 10 point document.
-\CLASSINFOnormalsizebaselineskip=\dimen106
-\CLASSINFOnormalsizeunitybaselineskip=\dimen107
-\IEEEnormaljot=\dimen108
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1090.
-
-\IEEEquantizedlength=\dimen109
-\IEEEquantizedlengthdiff=\dimen110
-\IEEEquantizedtextheightdiff=\dimen111
-\IEEEilabelindentA=\dimen112
-\IEEEilabelindentB=\dimen113
-\IEEEilabelindent=\dimen114
-\IEEEelabelindent=\dimen115
-\IEEEdlabelindent=\dimen116
-\IEEElabelindent=\dimen117
-\IEEEiednormlabelsep=\dimen118
-\IEEEiedmathlabelsep=\dimen119
-\IEEEiedtopsep=\skip41
-\c@section=\count83
-\c@subsection=\count84
-\c@subsubsection=\count85
-\c@paragraph=\count86
-\c@IEEEsubequation=\count87
-\abovecaptionskip=\skip42
-\belowcaptionskip=\skip43
-\c@figure=\count88
-\c@table=\count89
-\@IEEEeqnnumcols=\count90
-\@IEEEeqncolcnt=\count91
-\@IEEEsubeqnnumrollback=\count92
-\@IEEEquantizeheightA=\dimen120
-\@IEEEquantizeheightB=\dimen121
-\@IEEEquantizeheightC=\dimen122
-\@IEEEquantizeprevdepth=\dimen123
-\@IEEEquantizemultiple=\count93
-\@IEEEquantizeboxA=\box26
-\@IEEEtmpitemindent=\dimen124
-\IEEEPARstartletwidth=\dimen125
-\c@IEEEbiography=\count94
-\@IEEEtranrubishbin=\box27
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
 )
-** ATTENTION: Overriding command lockouts (line 2).
 (/usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
@@ -123,7 +31,7 @@ Package: cite 2015/02/27  v 5.5
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip44
+\@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -131,51 +39,51 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks15
-\ex@=\dimen126
+\@emptytoks=\toks14
+\ex@=\dimen103
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen127
+\pmbraise@=\dimen104
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count95
+\inf@bad=\count88
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count96
-\leftroot@=\count97
+\uproot@=\count89
+\leftroot@=\count90
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count98
-\DOTSCASE@=\count99
+\classnum@=\count91
+\DOTSCASE@=\count92
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box28
-\strutbox@=\box29
-\big@size=\dimen128
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count100
-\c@MaxMatrixCols=\count101
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
 \dotsspace@=\muskip10
-\c@parentequation=\count102
-\dspbrk@lvl=\count103
-\tag@help=\toks16
-\row@=\count104
-\column@=\count105
-\maxfields@=\count106
-\andhelp@=\toks17
-\eqnshift@=\dimen129
-\alignsep@=\dimen130
-\tagshift@=\dimen131
-\tagwidth@=\dimen132
-\totwidth@=\dimen133
-\lineht@=\dimen134
-\@envbody=\toks18
-\multlinegap=\skip45
-\multlinetaggap=\skip46
-\mathdisplay@stack=\toks19
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -197,14 +105,14 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks20
+\KV@toks@=\toks19
 )
-\c@ALC@unique=\count107
-\c@ALC@line=\count108
-\c@ALC@rem=\count109
-\c@ALC@depth=\count110
-\ALC@tlm=\skip47
-\algorithmicindent=\skip48
+\c@ALC@unique=\count100
+\c@ALC@line=\count101
+\c@ALC@rem=\count102
+\c@ALC@depth=\count103
+\ALC@tlm=\skip46
+\algorithmicindent=\skip47
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -223,8 +131,8 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen135
-\Gin@req@width=\dimen136
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
@@ -402,8 +310,8 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/04/06 v1.3b Input encoding file
-\inpenc@prehook=\toks21
-\inpenc@posthook=\toks22
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/04/06 v1.3b Input encoding file
@@ -413,14 +321,14 @@ File: latin1.def 2018/04/06 v1.3b Input encoding file
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
-\pgfutil@everybye=\toks23
-\pgfutil@tempdima=\dimen137
-\pgfutil@tempdimb=\dimen138
+\pgfutil@everybye=\toks22
+\pgfutil@tempdima=\dimen114
+\pgfutil@tempdimb=\dimen115
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box30
+\pgfutil@abb=\box28
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -433,30 +341,30 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks24
-\pgfkeys@temptoks=\toks25
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
 ode.tex
-\pgfkeys@tmptoks=\toks26
+\pgfkeys@tmptoks=\toks25
 ))
-\pgf@x=\dimen139
-\pgf@y=\dimen140
-\pgf@xa=\dimen141
-\pgf@ya=\dimen142
-\pgf@xb=\dimen143
-\pgf@yb=\dimen144
-\pgf@xc=\dimen145
-\pgf@yc=\dimen146
+\pgf@x=\dimen116
+\pgf@y=\dimen117
+\pgf@xa=\dimen118
+\pgf@ya=\dimen119
+\pgf@xb=\dimen120
+\pgf@yb=\dimen121
+\pgf@xc=\dimen122
+\pgf@yc=\dimen123
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count111
-\c@pgf@countb=\count112
-\c@pgf@countc=\count113
-\c@pgf@countd=\count114
-\t@pgf@toka=\toks27
-\t@pgf@tokb=\toks28
-\t@pgf@tokc=\toks29
+\c@pgf@counta=\count104
+\c@pgf@countb=\count105
+\c@pgf@countc=\count106
+\c@pgf@countd=\count107
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
@@ -474,8 +382,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count115
-\pgfsyssoftpath@bigbuffer@items=\count116
+\pgfsyssoftpath@smallbuffer@items=\count108
+\pgfsyssoftpath@bigbuffer@items=\count109
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -487,12 +395,12 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen147
-\pgfmath@count=\count117
-\pgfmath@box=\box31
-\pgfmath@toks=\toks30
-\pgfmath@stack@operand=\toks31
-\pgfmath@stack@operation=\toks32
+\pgfmath@dimen=\dimen124
+\pgfmath@count=\count110
+\pgfmath@box=\box29
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
 tex
@@ -513,57 +421,57 @@ code.tex)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count118
+\c@pgfmathroundto@lastzeros=\count111
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen148
-\pgf@picmaxx=\dimen149
-\pgf@picminy=\dimen150
-\pgf@picmaxy=\dimen151
-\pgf@pathminx=\dimen152
-\pgf@pathmaxx=\dimen153
-\pgf@pathminy=\dimen154
-\pgf@pathmaxy=\dimen155
-\pgf@xx=\dimen156
-\pgf@xy=\dimen157
-\pgf@yx=\dimen158
-\pgf@yy=\dimen159
-\pgf@zx=\dimen160
-\pgf@zy=\dimen161
+\pgf@picminx=\dimen125
+\pgf@picmaxx=\dimen126
+\pgf@picminy=\dimen127
+\pgf@picmaxy=\dimen128
+\pgf@pathminx=\dimen129
+\pgf@pathmaxx=\dimen130
+\pgf@pathminy=\dimen131
+\pgf@pathmaxy=\dimen132
+\pgf@xx=\dimen133
+\pgf@xy=\dimen134
+\pgf@yx=\dimen135
+\pgf@yy=\dimen136
+\pgf@zx=\dimen137
+\pgf@zy=\dimen138
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen162
-\pgf@path@lasty=\dimen163
+\pgf@path@lastx=\dimen139
+\pgf@path@lasty=\dimen140
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen164
-\pgf@shorten@start@additional=\dimen165
+\pgf@shorten@end@additional=\dimen141
+\pgf@shorten@start@additional=\dimen142
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box32
-\pgf@hbox=\box33
-\pgf@layerbox@main=\box34
-\pgf@picture@serial@count=\count119
+\pgfpic=\box30
+\pgf@hbox=\box31
+\pgf@layerbox@main=\box32
+\pgf@picture@serial@count=\count112
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen166
+\pgflinewidth=\dimen143
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen167
-\pgf@pt@y=\dimen168
-\pgf@pt@temp=\dimen169
+\pgf@pt@x=\dimen144
+\pgf@pt@y=\dimen145
+\pgf@pt@temp=\dimen146
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -580,13 +488,13 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen170
+\pgfarrowsep=\dimen147
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen171
-\pgf@sys@shading@range@num=\count120
+\pgf@max=\dimen148
+\pgf@sys@shading@range@num=\count113
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -595,7 +503,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box35
+\pgfexternal@startupbox=\box33
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -612,7 +520,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box36
+\pgfnodeparttextbox=\box34
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -621,8 +529,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen172
-\pgf@nodesepend=\dimen173
+\pgf@nodesepstart=\dimen149
+\pgf@nodesepend=\dimen150
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -637,10 +545,10 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen174
-\pgffor@skip=\dimen175
-\pgffor@stack=\toks33
-\pgffor@toks=\toks34
+\pgffor@iter=\dimen151
+\pgffor@skip=\dimen152
+\pgffor@stack=\toks32
+\pgffor@toks=\toks33
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
 e.tex
@@ -649,32 +557,32 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count121
-\pgfplotmarksize=\dimen176
+\pgf@plot@mark@count=\count114
+\pgfplotmarksize=\dimen153
 )
-\tikz@lastx=\dimen177
-\tikz@lasty=\dimen178
-\tikz@lastxsaved=\dimen179
-\tikz@lastysaved=\dimen180
-\tikzleveldistance=\dimen181
-\tikzsiblingdistance=\dimen182
-\tikz@figbox=\box37
-\tikz@figbox@bg=\box38
-\tikz@tempbox=\box39
-\tikz@tempbox@bg=\box40
-\tikztreelevel=\count122
-\tikznumberofchildren=\count123
-\tikznumberofcurrentchild=\count124
-\tikz@fig@count=\count125
+\tikz@lastx=\dimen154
+\tikz@lasty=\dimen155
+\tikz@lastxsaved=\dimen156
+\tikz@lastysaved=\dimen157
+\tikzleveldistance=\dimen158
+\tikzsiblingdistance=\dimen159
+\tikz@figbox=\box35
+\tikz@figbox@bg=\box36
+\tikz@tempbox=\box37
+\tikz@tempbox@bg=\box38
+\tikztreelevel=\count115
+\tikznumberofchildren=\count116
+\tikznumberofcurrentchild=\count117
+\tikz@fig@count=\count118
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count126
-\pgfmatrixcurrentcolumn=\count127
-\pgf@matrix@numberofcolumns=\count128
+\pgfmatrixcurrentrow=\count119
+\pgfmatrixcurrentcolumn=\count120
+\pgf@matrix@numberofcolumns=\count121
 )
-\tikz@expandcount=\count129
+\tikz@expandcount=\count122
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -689,56 +597,39 @@ Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen183
-\captionmargin@=\dimen184
-\captionwidth=\dimen185
-\caption@tempdima=\dimen186
-\caption@indent=\dimen187
-\caption@parindent=\dimen188
-\caption@hangindent=\dimen189
-Package caption Info: Unknown document class (or package),
-(caption)             standard defaults will be used.
+\captionmargin=\dimen160
+\captionmargin@=\dimen161
+\captionwidth=\dimen162
+\caption@tempdima=\dimen163
+\caption@indent=\dimen164
+\caption@parindent=\dimen165
+\caption@hangindent=\dimen166
 )
-
-Package caption Warning: Unsupported document class (or package) detected,
-(caption)                usage of the caption package is not recommended.
-See the caption package documentation for explanation.
-
-Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
-blestring \footnotesize \bgroup \par \centering \@IEEEtabletopskipstrut {\norma
-lfont \footnotesize #1}\\{\normalfont \footnotesize \scshape #2}\par \addvspace
- {0.5\baselineskip }\egroup \@IEEEtablecaptionsepspace \else \@IEEEfigurecaptio
-nsepspace \setbox \@tempboxa \hbox {\normalfont \footnotesize {#1.}\nobreakspac
-e \nobreakspace #2}\ifdim \wd \@tempboxa >\hsize \setbox \@tempboxa \hbox {\nor
-malfont \footnotesize {#1.}\nobreakspace \nobreakspace }\parbox [t]{\hsize }{\n
-ormalfont \footnotesize \noindent \unhbox \@tempboxa #2}\else \ifCLASSOPTIONcon
-ference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }
-\else \hbox to\hsize {\normalfont \footnotesize \box \@tempboxa \hfil }\fi \fi 
-\fi .
-\c@ContinuedFloat=\count130
+\c@ContinuedFloat=\count123
 )
-\c@subfigure=\count131
-\c@subtable=\count132
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+\c@subfigure=\count124
+\c@subtable=\count125
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
-\col@sep=\dimen190
-\ar@mcellbox=\box41
-\extrarowheight=\dimen191
-\NC@list=\toks35
-\extratabsurround=\skip49
-\backup@length=\skip50
-\ar@cellbox=\box42
+\col@sep=\dimen167
+\ar@mcellbox=\box39
+\extrarowheight=\dimen168
+\NC@list=\toks34
+\extratabsurround=\skip48
+\backup@length=\skip49
+\ar@cellbox=\box40
 )
-\TX@col@width=\dimen192
-\TX@old@table=\dimen193
-\TX@old@col=\dimen194
-\TX@target=\dimen195
-\TX@delta=\dimen196
-\TX@cols=\count133
-\TX@ftn=\toks36
+\TX@col@width=\dimen169
+\TX@old@table=\dimen170
+\TX@old@col=\dimen171
+\TX@target=\dimen172
+\TX@delta=\dimen173
+\TX@cols=\count126
+\TX@ftn=\toks35
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
@@ -746,9 +637,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip51
-\L@UnitsRaiseTextstyle=\skip52
-\L@UnitsRaiseScriptstyle=\skip53
+\L@UnitsRaiseDisplaystyle=\skip50
+\L@UnitsRaiseTextstyle=\skip51
+\L@UnitsRaiseScriptstyle=\skip52
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarypositioning.code.tex
@@ -805,26 +696,26 @@ File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
 shapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
 
-\pgfnodepartlowerbox=\box43
-\pgfnodeparttwobox=\box44
-\pgfnodepartthreebox=\box45
-\pgfnodepartfourbox=\box46
-\pgfnodeparttwentybox=\box47
-\pgfnodepartnineteenbox=\box48
-\pgfnodeparteighteenbox=\box49
-\pgfnodepartseventeenbox=\box50
-\pgfnodepartsixteenbox=\box51
-\pgfnodepartfifteenbox=\box52
-\pgfnodepartfourteenbox=\box53
-\pgfnodepartthirteenbox=\box54
-\pgfnodeparttwelvebox=\box55
-\pgfnodepartelevenbox=\box56
-\pgfnodeparttenbox=\box57
-\pgfnodepartninebox=\box58
-\pgfnodeparteightbox=\box59
-\pgfnodepartsevenbox=\box60
-\pgfnodepartsixbox=\box61
-\pgfnodepartfivebox=\box62
+\pgfnodepartlowerbox=\box41
+\pgfnodeparttwobox=\box42
+\pgfnodepartthreebox=\box43
+\pgfnodepartfourbox=\box44
+\pgfnodeparttwentybox=\box45
+\pgfnodepartnineteenbox=\box46
+\pgfnodeparteighteenbox=\box47
+\pgfnodepartseventeenbox=\box48
+\pgfnodepartsixteenbox=\box49
+\pgfnodepartfifteenbox=\box50
+\pgfnodepartfourteenbox=\box51
+\pgfnodepartthirteenbox=\box52
+\pgfnodeparttwelvebox=\box53
+\pgfnodepartelevenbox=\box54
+\pgfnodeparttenbox=\box55
+\pgfnodepartninebox=\box56
+\pgfnodeparteightbox=\box57
+\pgfnodepartsevenbox=\box58
+\pgfnodepartsixbox=\box59
+\pgfnodepartfivebox=\box60
 )))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryarrows.code.tex
@@ -833,8 +724,20 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
 code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen197
-))
+\arrowsize=\dimen174
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+
+
+Package natbib Warning: The `cite' package should not be used
+(natbib)                with natbib. Use option `sort' instead.
+
+\bibhang=\skip53
+\bibsep=\skip54
+LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \citenum on input line 708.
+\c@NAT@ctr=\count127
+)
 (/Users/markroza/Documents/GitHub/papers_latex/AAnchor_BioInformatics_git/.texp
 adtmp/main.aux
 
@@ -849,42 +752,57 @@ LaTeX Warning: Label `f:DS_norm_22_RR' multiply defined.
 
 LaTeX Warning: Label `sub@f:DS_norm_22_RR' multiply defined.
 
+
+/Users/markroza/Documents/GitHub/papers_latex/AAnchor_BioInformatics_git/.texpa
+dtmp/main.aux:168: Package natbib Error: Bibliography not compatible with autho
+r-year citations.
+(natbib)                Press <return> to continue in numerical citation style.
+
+
+See the natbib package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 ...and\NAT@force@numbers{}\NAT@force@numbers
+                                                  
+Check the bibliography entries for non-compliant syntax,
+or select author-year BibTeX style, e.g. plainnat
+
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 41.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    ... okay on input line 41.
 
--- Lines per column: 56 (exact).
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count134
-\scratchdimen=\dimen198
-\scratchbox=\box63
-\nofMPsegments=\count135
-\nofMParguments=\count136
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count137
-\MPscratchDim=\dimen199
-\MPnumerator=\count138
-\makeMPintoPDFobject=\count139
-\everyMPtoPDFconversion=\toks38
+\scratchcounter=\count128
+\scratchdimen=\dimen175
+\scratchbox=\box61
+\nofMPsegments=\count129
+\nofMParguments=\count130
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen176
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
+\everyMPtoPDFconversion=\toks37
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -944,26 +862,37 @@ e
 ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (./abstrct.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+LaTeX Font Info:    Try loading font information for U+msa on input line 57.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+LaTeX Font Info:    Try loading font information for U+msb on input line 57.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+) (./abstrct.tex)
+Underfull \hbox (badness 1052) in paragraph at lines 1--64
+\OT1/cmr/bx/n/10 Availability: \OT1/cmr/m/n/10 A web ap-pli-ca-tion based on th
+e
+ []
 
-LaTeX Warning: Command \r invalid in math mode on input line 9.
 
-) (./introduction.tex
+Underfull \hbox (badness 4072) in paragraph at lines 1--64
+\OT1/cmr/bx/n/10 Supplementary in-for-ma-tion: \OT1/cmr/m/n/10 Sup-ple-men-tary
+
+ []
+
+(./introduction.tex
 
 LaTeX Warning: Command \r invalid in math mode on input line 1.
 
 
 LaTeX Warning: Command \r invalid in math mode on input line 1.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 LaTeX Warning: Command \r invalid in math mode on input line 3.
@@ -971,36 +900,59 @@ LaTeX Warning: Command \r invalid in math mode on input line 3.
 
 LaTeX Warning: Command \r invalid in math mode on input line 5.
 
-
-LaTeX Warning: Command \r invalid in math mode on input line 8.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 18.
-
 [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
 
 
 ]
 
-LaTeX Warning: Command \r invalid in math mode on input line 32.
+LaTeX Warning: Command \r invalid in math mode on input line 10.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 34.
+LaTeX Warning: Command \r invalid in math mode on input line 19.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 34.
+LaTeX Warning: Command \r invalid in math mode on input line 21.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 34.
+LaTeX Warning: Command \r invalid in math mode on input line 21.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 21.
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 23--24
+[]\OT1/cmr/m/n/10 A server of the de-tec-tion/prediction stage of
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 23--24
+\OT1/cmr/m/n/10 the AAn-chor al-go-rithm is avail-able at $\OT1/cmtt/m/n/10 htt
+p : / /
+ []
 
 ) (./methods.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--6
+\OT1/cmr/m/n/10 Given an elec-tron den-sity map of a pro-
+ []
+
+
+Underfull \hbox (badness 5388) in paragraph at lines 2--6
+\OT1/cmr/m/n/10 tein/macromolecular as-sem-bly, our task is to
+ []
+
+[2]
+Underfull \hbox (badness 2573) in paragraph at lines 28--28
+[]\OT1/cmr/bx/n/12 Softmax CNN for the Amino
+ []
+
 
 LaTeX Warning: Command \r invalid in math mode on input line 30.
 
-[2]
 
 LaTeX Warning: Command \r invalid in math mode on input line 55.
 
+[3]
 
 LaTeX Warning: Command \r invalid in math mode on input line 74.
 
@@ -1011,69 +963,66 @@ LaTeX Warning: Command \r invalid in math mode on input line 74.
 LaTeX Warning: Command \r invalid in math mode on input line 74.
 
 
-Underfull \hbox (badness 2277) in paragraph at lines 80--84
-[]\OT1/ptm/m/n/10 The pre-dicted la-bel and con-fi-dence are cal-cu-late by
+Overfull \hbox (6.34032pt too wide) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/5 Layer| 
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 80--84
-\OT1/ptm/m/n/10 and is one of the fol-low-ing: one of $\OML/cmm/m/it/10 N[]\OT1
-/cmr/m/n/10 (\OT1/cmr/bx/n/10 x\OT1/cmr/m/n/10 )$\OT1/ptm/m/n/10 , $\OML/cmm/m/
-it/10 N[]\OT1/cmr/m/n/10 (\OT1/cmr/bx/n/10 x\OT1/cmr/m/n/10 )$\OT1/ptm/m/n/10 ,
-
- []
-
-
-Overfull \hbox (6.65587pt too wide) in paragraph at lines 92--92
-[]|\OT1/ptm/m/n/8 Layer| 
- []
-
-
-Overfull \hbox (3.47835pt too wide) in paragraph at lines 89--109
- [] 
+Underfull \hbox (badness 3815) in paragraph at lines 93--94
+[]|\OT1/cmr/m/n/5 Input/Output Di-
  []
 
 (./pics/det_scheme.tex
-Overfull \hbox (4.43158pt too wide) in paragraph at lines 13--13
- [][][][]\OT1/ptm/m/n/8 preprocessing 
+Overfull \hbox (7.42789pt too wide) in paragraph at lines 13--13
+ [][][][]\OT1/cmr/m/n/8 preprocessing 
  []
 
 
-Overfull \hbox (3.5593pt too wide) in paragraph at lines 15--15
- [][][][]\OT1/ptm/m/n/8 Classification 
+Overfull \hbox (6.70566pt too wide) in paragraph at lines 15--15
+ [][][][]\OT1/cmr/m/n/8 Classification 
  []
 
 
-Overfull \hbox (3.5593pt too wide) in paragraph at lines 16--16
- [][][][]\OT1/ptm/m/n/8 Classification 
+Overfull \hbox (6.70566pt too wide) in paragraph at lines 16--16
+ [][][][]\OT1/cmr/m/n/8 Classification 
  []
 
 
-Overfull \hbox (3.5593pt too wide) in paragraph at lines 17--17
- [][][][]\OT1/ptm/m/n/8 Classification 
+Overfull \hbox (6.70566pt too wide) in paragraph at lines 17--17
+ [][][][]\OT1/cmr/m/n/8 Classification 
  []
 
-)) (./results.tex [3]
+)
+Overfull \hbox (7.44606pt too wide) in paragraph at lines 32--116
+ [][] 
+ []
 
-LaTeX Warning: Command \r invalid in math mode on input line 28.
+) (./results.tex
+Underfull \hbox (badness 10000) in paragraph at lines 10--10
+[]\OT1/cmr/bx/n/10 Confusion Ma-trix and Re-li-a-bil-ity
+ []
 
-<pics/CM_22_SS.png, id=37, 462.528pt x 346.896pt>
+[4]
+
+LaTeX Warning: Command \r invalid in math mode on input line 26.
+
+<pics/CM_22_SS.png, id=40, 462.528pt x 346.896pt>
 File: pics/CM_22_SS.png Graphic file (type png)
 <use pics/CM_22_SS.png>
 Package pdftex.def Info: pics/CM_22_SS.png  used on input line 46.
-(pdftex.def)             Requested size: 144.0175pt x 108.01303pt.
+(pdftex.def)             Requested size: 131.15878pt x 98.36882pt.
 
-Overfull \hbox (30.61827pt too wide) in paragraph at lines 46--47
+Overfull \hbox (27.88449pt too wide) in paragraph at lines 46--47
 [][] 
  []
 
-<pics/ss22_acc.png, id=39, 462.528pt x 346.896pt>
+<pics/ss22_acc.png, id=42, 462.528pt x 346.896pt>
 File: pics/ss22_acc.png Graphic file (type png)
 <use pics/ss22_acc.png>
 Package pdftex.def Info: pics/ss22_acc.png  used on input line 53.
-(pdftex.def)             Requested size: 144.0175pt x 108.01303pt.
+(pdftex.def)             Requested size: 131.15878pt x 98.36882pt.
 
-Overfull \hbox (30.61827pt too wide) in paragraph at lines 53--54
+Overfull \hbox (27.88449pt too wide) in paragraph at lines 53--54
 [][] 
  []
 
@@ -1083,24 +1032,34 @@ LaTeX Warning: Command \r invalid in math mode on input line 58.
 
 LaTeX Warning: Command \r invalid in math mode on input line 58.
 
-<pics/DS_22_SS.png, id=40, 462.528pt x 346.896pt>
+<pics/DS_22_SS.png, id=43, 462.528pt x 346.896pt>
 File: pics/DS_22_SS.png Graphic file (type png)
 <use pics/DS_22_SS.png>
 Package pdftex.def Info: pics/DS_22_SS.png  used on input line 64.
-(pdftex.def)             Requested size: 124.73984pt x 93.552pt.
+(pdftex.def)             Requested size: 113.60234pt x 85.19934pt.
 
-Overfull \hbox (11.3406pt too wide) in paragraph at lines 64--65
+Overfull \hbox (10.32805pt too wide) in paragraph at lines 64--65
 [][] 
  []
 
-<pics/DS_norm_22_SS.png, id=41, 462.528pt x 346.896pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--65
+
+ []
+
+<pics/DS_norm_22_SS.png, id=44, 462.528pt x 346.896pt>
 File: pics/DS_norm_22_SS.png Graphic file (type png)
 <use pics/DS_norm_22_SS.png>
 Package pdftex.def Info: pics/DS_norm_22_SS.png  used on input line 71.
-(pdftex.def)             Requested size: 124.73984pt x 93.552pt.
+(pdftex.def)             Requested size: 113.60234pt x 85.19934pt.
 
-Overfull \hbox (11.3406pt too wide) in paragraph at lines 71--72
+Overfull \hbox (10.32805pt too wide) in paragraph at lines 71--72
 [][] 
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 72--72
+\OT1/cmr/m/n/9 size nor-mal-ized to the
  []
 
 
@@ -1112,23 +1071,25 @@ LaTeX Warning: Command \r invalid in math mode on input line 76.
 
 LaTeX Warning: Command \r invalid in math mode on input line 82.
 
-<pics/CM_22_RR.png, id=42, 462.528pt x 346.896pt>
+[5 <./pics/CM_22_SS.png> <./pics/ss22_acc.png> <./pics/DS_22_SS.png> <./pics/DS
+_norm_22_SS.png>]
+<pics/CM_22_RR.png, id=53, 462.528pt x 346.896pt>
 File: pics/CM_22_RR.png Graphic file (type png)
 <use pics/CM_22_RR.png>
 Package pdftex.def Info: pics/CM_22_RR.png  used on input line 105.
-(pdftex.def)             Requested size: 144.0175pt x 108.01303pt.
+(pdftex.def)             Requested size: 131.15878pt x 98.36882pt.
 
-Overfull \hbox (30.61827pt too wide) in paragraph at lines 105--106
+Overfull \hbox (27.88449pt too wide) in paragraph at lines 105--106
 [][] 
  []
 
-<pics/rr22_acc.png, id=43, 462.528pt x 346.896pt>
+<pics/rr22_acc.png, id=54, 462.528pt x 346.896pt>
 File: pics/rr22_acc.png Graphic file (type png)
 <use pics/rr22_acc.png>
 Package pdftex.def Info: pics/rr22_acc.png  used on input line 112.
-(pdftex.def)             Requested size: 144.0175pt x 108.01303pt.
+(pdftex.def)             Requested size: 131.15878pt x 98.36882pt.
 
-Overfull \hbox (30.61827pt too wide) in paragraph at lines 112--113
+Overfull \hbox (27.88449pt too wide) in paragraph at lines 112--113
 [][] 
  []
 
@@ -1138,43 +1099,48 @@ LaTeX Warning: Command \r invalid in math mode on input line 117.
 
 LaTeX Warning: Command \r invalid in math mode on input line 117.
 
-<pics/DS_22_RR.png, id=44, 462.528pt x 346.896pt>
+<pics/DS_22_RR.png, id=55, 462.528pt x 346.896pt>
 File: pics/DS_22_RR.png Graphic file (type png)
 <use pics/DS_22_RR.png>
 Package pdftex.def Info: pics/DS_22_RR.png  used on input line 123.
-(pdftex.def)             Requested size: 124.73984pt x 93.552pt.
+(pdftex.def)             Requested size: 113.60234pt x 85.19934pt.
 
-Overfull \hbox (11.3406pt too wide) in paragraph at lines 123--124
+Overfull \hbox (10.32805pt too wide) in paragraph at lines 123--124
 [][] 
  []
 
-<pics/DS_norm_22_RR.png, id=45, 462.528pt x 346.896pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
+
+ []
+
+<pics/DS_norm_22_RR.png, id=56, 462.528pt x 346.896pt>
 File: pics/DS_norm_22_RR.png Graphic file (type png)
 <use pics/DS_norm_22_RR.png>
 Package pdftex.def Info: pics/DS_norm_22_RR.png  used on input line 130.
-(pdftex.def)             Requested size: 124.73984pt x 93.552pt.
+(pdftex.def)             Requested size: 113.60234pt x 85.19934pt.
 
-Overfull \hbox (11.3406pt too wide) in paragraph at lines 130--131
+Overfull \hbox (10.32805pt too wide) in paragraph at lines 130--131
 [][] 
  []
 
-<pics/CM_22_RSR.png, id=46, 462.528pt x 346.896pt>
+<pics/CM_22_RSR.png, id=57, 462.528pt x 346.896pt>
 File: pics/CM_22_RSR.png Graphic file (type png)
 <use pics/CM_22_RSR.png>
 Package pdftex.def Info: pics/CM_22_RSR.png  used on input line 142.
-(pdftex.def)             Requested size: 144.0175pt x 108.01303pt.
+(pdftex.def)             Requested size: 131.15878pt x 98.36882pt.
 
-Overfull \hbox (30.61827pt too wide) in paragraph at lines 142--143
+Overfull \hbox (27.88449pt too wide) in paragraph at lines 142--143
 [][] 
  []
 
-<pics/rsr22_acc.png, id=47, 462.528pt x 346.896pt>
+<pics/rsr22_acc.png, id=58, 462.528pt x 346.896pt>
 File: pics/rsr22_acc.png Graphic file (type png)
 <use pics/rsr22_acc.png>
 Package pdftex.def Info: pics/rsr22_acc.png  used on input line 149.
-(pdftex.def)             Requested size: 144.0175pt x 108.01303pt.
+(pdftex.def)             Requested size: 131.15878pt x 98.36882pt.
 
-Overfull \hbox (30.61827pt too wide) in paragraph at lines 149--150
+Overfull \hbox (27.88449pt too wide) in paragraph at lines 149--150
 [][] 
  []
 
@@ -1187,58 +1153,68 @@ LaTeX Warning: Command \r invalid in math mode on input line 154.
 File: pics/DS_22_RR.png Graphic file (type png)
 <use pics/DS_22_RR.png>
 Package pdftex.def Info: pics/DS_22_RR.png  used on input line 160.
-(pdftex.def)             Requested size: 124.73984pt x 93.552pt.
+(pdftex.def)             Requested size: 113.60234pt x 85.19934pt.
 
-Overfull \hbox (11.3406pt too wide) in paragraph at lines 160--161
+Overfull \hbox (10.32805pt too wide) in paragraph at lines 160--161
 [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+
  []
 
 File: pics/DS_norm_22_RR.png Graphic file (type png)
 <use pics/DS_norm_22_RR.png>
 Package pdftex.def Info: pics/DS_norm_22_RR.png  used on input line 167.
-(pdftex.def)             Requested size: 124.73984pt x 93.552pt.
+(pdftex.def)             Requested size: 113.60234pt x 85.19934pt.
 
-Overfull \hbox (11.3406pt too wide) in paragraph at lines 167--168
+Overfull \hbox (10.32805pt too wide) in paragraph at lines 167--168
 [][] 
  []
 
-<pics/rel_PRO_22_SRS.png, id=48, 462.528pt x 346.896pt>
+
+Underfull \hbox (badness 2941) in paragraph at lines 168--168
+\OT1/cmr/m/n/9 size nor-mal-ized to the
+ []
+
+<pics/rel_PRO_22_SRS.png, id=59, 462.528pt x 346.896pt>
 File: pics/rel_PRO_22_SRS.png Graphic file (type png)
 <use pics/rel_PRO_22_SRS.png>
 Package pdftex.def Info: pics/rel_PRO_22_SRS.png  used on input line 179.
-(pdftex.def)             Requested size: 144.0175pt x 108.01303pt.
+(pdftex.def)             Requested size: 131.15878pt x 98.36882pt.
 
-Overfull \hbox (30.61827pt too wide) in paragraph at lines 179--180
+Overfull \hbox (27.88449pt too wide) in paragraph at lines 179--180
 [][] 
  []
 
-<pics/rel_LEU_22_SRS.png, id=49, 462.528pt x 346.896pt>
+<pics/rel_LEU_22_SRS.png, id=60, 462.528pt x 346.896pt>
 File: pics/rel_LEU_22_SRS.png Graphic file (type png)
 <use pics/rel_LEU_22_SRS.png>
 Package pdftex.def Info: pics/rel_LEU_22_SRS.png  used on input line 182.
-(pdftex.def)             Requested size: 144.0175pt x 108.01303pt.
+(pdftex.def)             Requested size: 131.15878pt x 98.36882pt.
 
-Overfull \hbox (30.61827pt too wide) in paragraph at lines 182--183
+Overfull \hbox (27.88449pt too wide) in paragraph at lines 182--183
 [][] 
  []
 
-<pics/rel_VAL_22_SRS.png, id=50, 462.528pt x 346.896pt>
+<pics/rel_VAL_22_SRS.png, id=61, 462.528pt x 346.896pt>
 File: pics/rel_VAL_22_SRS.png Graphic file (type png)
 <use pics/rel_VAL_22_SRS.png>
 Package pdftex.def Info: pics/rel_VAL_22_SRS.png  used on input line 188.
-(pdftex.def)             Requested size: 144.0175pt x 108.01303pt.
+(pdftex.def)             Requested size: 131.15878pt x 98.36882pt.
 
-Overfull \hbox (30.61827pt too wide) in paragraph at lines 188--189
+Overfull \hbox (27.88449pt too wide) in paragraph at lines 188--189
 [][] 
  []
 
-<pics/rel_GLY_22_SRS.png, id=51, 462.528pt x 346.896pt>
+<pics/rel_GLY_22_SRS.png, id=62, 462.528pt x 346.896pt>
 File: pics/rel_GLY_22_SRS.png Graphic file (type png)
 <use pics/rel_GLY_22_SRS.png>
 Package pdftex.def Info: pics/rel_GLY_22_SRS.png  used on input line 191.
-(pdftex.def)             Requested size: 144.0175pt x 108.01303pt.
+(pdftex.def)             Requested size: 131.15878pt x 98.36882pt.
 
-Overfull \hbox (30.61827pt too wide) in paragraph at lines 191--192
+Overfull \hbox (27.88449pt too wide) in paragraph at lines 191--192
 [][] 
  []
 
@@ -1249,15 +1225,10 @@ LaTeX Warning: Command \r invalid in math mode on input line 194.
 LaTeX Warning: Command \r invalid in math mode on input line 194.
 
 
-Underfull \hbox (badness 4859) in paragraph at lines 194--194
-[]\OT1/ptm/m/n/10 Fig. 8: |Es-ti-mated Re-li-a-bil-ity Curves for PRO, LEU,
- []
+LaTeX Warning: Command \r invalid in math mode on input line 198.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 199.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 199.
+LaTeX Warning: Command \r invalid in math mode on input line 198.
 
 
 LaTeX Warning: Command \r invalid in math mode on input line 204.
@@ -1277,8 +1248,11 @@ LaTeX Warning: Command \r invalid in math mode on input line 206.
 
 LaTeX Warning: Command \r invalid in math mode on input line 206.
 
-[4 <./pics/CM_22_SS.png> <./pics/ss22_acc.png> <./pics/DS_22_SS.png> <./pics/DS
-_norm_22_SS.png>]
+[6 <./pics/CM_22_RR.png> <./pics/rr22_acc.png> <./pics/DS_22_RR.png> <./pics/DS
+_norm_22_RR.png> <./pics/CM_22_RSR.png> <./pics/rsr22_acc.png>]
+Underfull \vbox (badness 2111) has occurred while \output is active []
+
+
 
 LaTeX Warning: Command \r invalid in math mode on input line 208.
 
@@ -1298,307 +1272,378 @@ LaTeX Warning: Command \r invalid in math mode on input line 209.
 LaTeX Warning: Command \r invalid in math mode on input line 209.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--214
-[]|\OT1/ptm/m/n/8 Resolution
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+[]|\OT1/cmr/m/n/9 Resolution
  []
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 216.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 216.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 218.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 218.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
-[]|\OT1/ptm/m/n/8 EMD-6224 ,$\OT1/cmr/m/n/8 2\OML/cmm/m/it/8 :\OT1/cmr/m/n/8 9[
-]\OML/cmm/m/it/8 A$
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+[]|\OT1/cmr/m/n/9 N.
  []
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 220.
+LaTeX Warning: Command \r invalid in math mode on input line 217.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 220.
+LaTeX Warning: Command \r invalid in math mode on input line 217.
 
-<pics/s3_293_acc.png, id=59, 462.528pt x 346.896pt>
+
+Underfull \hbox (badness 7203) in paragraph at lines 217--218
+[]|\OT1/cmr/m/n/9 EMD-2984 , $2\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 2[]\OML/cmm/m/it
+/9 A$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+\OML/cmm/m/it/9 beta$ \OT1/cmr/m/n/9 -galactosidase
+ []
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 219.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 219.
+
+
+Underfull \hbox (badness 2080) in paragraph at lines 219--220
+\OT1/cmr/m/n/9 thrax toxin pro-tec-
+ []
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 221.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 221.
+
+<pics/s3_293_acc.png, id=72, 462.528pt x 346.896pt>
 File: pics/s3_293_acc.png Graphic file (type png)
 <use pics/s3_293_acc.png>
-Package pdftex.def Info: pics/s3_293_acc.png  used on input line 229.
-(pdftex.def)             Requested size: 124.73984pt x 93.552pt.
+Package pdftex.def Info: pics/s3_293_acc.png  used on input line 230.
+(pdftex.def)             Requested size: 113.60234pt x 85.19934pt.
 
-Overfull \hbox (11.3406pt too wide) in paragraph at lines 229--230
+Overfull \hbox (10.32805pt too wide) in paragraph at lines 230--231
 [][] 
  []
 
-<pics/r3_293_acc.png, id=60, 462.528pt x 346.896pt>
+<pics/r3_293_acc.png, id=73, 462.528pt x 346.896pt>
 File: pics/r3_293_acc.png Graphic file (type png)
 <use pics/r3_293_acc.png>
-Package pdftex.def Info: pics/r3_293_acc.png  used on input line 236.
-(pdftex.def)             Requested size: 124.73984pt x 93.552pt.
+Package pdftex.def Info: pics/r3_293_acc.png  used on input line 237.
+(pdftex.def)             Requested size: 113.60234pt x 85.19934pt.
 
-Overfull \hbox (11.3406pt too wide) in paragraph at lines 236--237
+Overfull \hbox (10.32805pt too wide) in paragraph at lines 237--238
 [][] 
  []
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 237.
+LaTeX Warning: Command \r invalid in math mode on input line 238.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 237.
+LaTeX Warning: Command \r invalid in math mode on input line 238.
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 237--237
-[]\OT1/ptm/m/n/9 (b) |Real Data (Mixed with
+Underfull \hbox (badness 3323) in paragraph at lines 238--238
+[]\OT1/cmr/m/n/9 (b) |Real Data (Mixed
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
-\OT1/ptm/m/n/9 Sim-u-la-tion for Res-o-lu-tion
- []
-
-<pics/CM_29_RR.png, id=61, 462.528pt x 346.896pt>
+<pics/CM_29_RR.png, id=74, 462.528pt x 346.896pt>
 File: pics/CM_29_RR.png Graphic file (type png)
 <use pics/CM_29_RR.png>
-Package pdftex.def Info: pics/CM_29_RR.png  used on input line 248.
-(pdftex.def)             Requested size: 136.07872pt x 102.05818pt.
+Package pdftex.def Info: pics/CM_29_RR.png  used on input line 249.
+(pdftex.def)             Requested size: 123.92883pt x 92.94328pt.
 
-Overfull \hbox (22.67949pt too wide) in paragraph at lines 248--249
+Overfull \hbox (20.65454pt too wide) in paragraph at lines 249--250
 [][] 
  []
 
-<pics/CM_31_RR.png, id=62, 462.528pt x 346.896pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
+
+ []
+
+<pics/CM_31_RR.png, id=75, 462.528pt x 346.896pt>
 File: pics/CM_31_RR.png Graphic file (type png)
 <use pics/CM_31_RR.png>
-Package pdftex.def Info: pics/CM_31_RR.png  used on input line 255.
-(pdftex.def)             Requested size: 136.07872pt x 102.05818pt.
+Package pdftex.def Info: pics/CM_31_RR.png  used on input line 256.
+(pdftex.def)             Requested size: 123.92883pt x 92.94328pt.
 
-Overfull \hbox (22.67949pt too wide) in paragraph at lines 255--256
+Overfull \hbox (20.65454pt too wide) in paragraph at lines 256--257
 [][] 
  []
 
-<pics/rel_PRO_29_RR.png, id=63, 462.528pt x 346.896pt>
+<pics/rel_PRO_29_RR.png, id=76, 462.528pt x 346.896pt>
 File: pics/rel_PRO_29_RR.png Graphic file (type png)
 <use pics/rel_PRO_29_RR.png>
-Package pdftex.def Info: pics/rel_PRO_29_RR.png  used on input line 266.
-(pdftex.def)             Requested size: 144.0175pt x 108.01303pt.
+Package pdftex.def Info: pics/rel_PRO_29_RR.png  used on input line 267.
+(pdftex.def)             Requested size: 131.15878pt x 98.36882pt.
 
-Overfull \hbox (30.61827pt too wide) in paragraph at lines 266--267
+Overfull \hbox (27.88449pt too wide) in paragraph at lines 267--268
 [][] 
  []
 
-<pics/rel_LEU_29_RR.png, id=64, 462.528pt x 346.896pt>
+<pics/rel_LEU_29_RR.png, id=77, 462.528pt x 346.896pt>
 File: pics/rel_LEU_29_RR.png Graphic file (type png)
 <use pics/rel_LEU_29_RR.png>
-Package pdftex.def Info: pics/rel_LEU_29_RR.png  used on input line 269.
-(pdftex.def)             Requested size: 144.0175pt x 108.01303pt.
+Package pdftex.def Info: pics/rel_LEU_29_RR.png  used on input line 270.
+(pdftex.def)             Requested size: 131.15878pt x 98.36882pt.
 
-Overfull \hbox (30.61827pt too wide) in paragraph at lines 269--270
+Overfull \hbox (27.88449pt too wide) in paragraph at lines 270--271
 [][] 
  []
 
-<pics/rel_VAL_29_RR.png, id=65, 462.528pt x 346.896pt>
+<pics/rel_VAL_29_RR.png, id=78, 462.528pt x 346.896pt>
 File: pics/rel_VAL_29_RR.png Graphic file (type png)
 <use pics/rel_VAL_29_RR.png>
-Package pdftex.def Info: pics/rel_VAL_29_RR.png  used on input line 275.
-(pdftex.def)             Requested size: 144.0175pt x 108.01303pt.
+Package pdftex.def Info: pics/rel_VAL_29_RR.png  used on input line 276.
+(pdftex.def)             Requested size: 131.15878pt x 98.36882pt.
 
-Overfull \hbox (30.61827pt too wide) in paragraph at lines 275--276
+Overfull \hbox (27.88449pt too wide) in paragraph at lines 276--277
 [][] 
  []
 
-<pics/rel_GLY_29_RR.png, id=66, 462.528pt x 346.896pt>
+<pics/rel_GLY_29_RR.png, id=79, 462.528pt x 346.896pt>
 File: pics/rel_GLY_29_RR.png Graphic file (type png)
 <use pics/rel_GLY_29_RR.png>
-Package pdftex.def Info: pics/rel_GLY_29_RR.png  used on input line 278.
-(pdftex.def)             Requested size: 144.0175pt x 108.01303pt.
+Package pdftex.def Info: pics/rel_GLY_29_RR.png  used on input line 279.
+(pdftex.def)             Requested size: 131.15878pt x 98.36882pt.
 
-Overfull \hbox (30.61827pt too wide) in paragraph at lines 278--279
+Overfull \hbox (27.88449pt too wide) in paragraph at lines 279--280
 [][] 
  []
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 281.
+LaTeX Warning: Command \r invalid in math mode on input line 282.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 281.
+LaTeX Warning: Command \r invalid in math mode on input line 282.
 
-<pics/rel_PRO_31_RR.png, id=67, 462.528pt x 346.896pt>
+<pics/rel_PRO_31_RR.png, id=80, 462.528pt x 346.896pt>
 File: pics/rel_PRO_31_RR.png Graphic file (type png)
 <use pics/rel_PRO_31_RR.png>
-Package pdftex.def Info: pics/rel_PRO_31_RR.png  used on input line 287.
-(pdftex.def)             Requested size: 144.0175pt x 108.01303pt.
+Package pdftex.def Info: pics/rel_PRO_31_RR.png  used on input line 288.
+(pdftex.def)             Requested size: 131.15878pt x 98.36882pt.
 
-Overfull \hbox (30.61827pt too wide) in paragraph at lines 287--288
+Overfull \hbox (27.88449pt too wide) in paragraph at lines 288--289
 [][] 
  []
 
-<pics/rel_LEU_31_RR.png, id=68, 462.528pt x 346.896pt>
+<pics/rel_LEU_31_RR.png, id=81, 462.528pt x 346.896pt>
 File: pics/rel_LEU_31_RR.png Graphic file (type png)
 <use pics/rel_LEU_31_RR.png>
-Package pdftex.def Info: pics/rel_LEU_31_RR.png  used on input line 290.
-(pdftex.def)             Requested size: 144.0175pt x 108.01303pt.
+Package pdftex.def Info: pics/rel_LEU_31_RR.png  used on input line 291.
+(pdftex.def)             Requested size: 131.15878pt x 98.36882pt.
 
-Overfull \hbox (30.61827pt too wide) in paragraph at lines 290--291
+Overfull \hbox (27.88449pt too wide) in paragraph at lines 291--292
 [][] 
  []
 
-<pics/rel_VAL_31_RR.png, id=69, 462.528pt x 346.896pt>
+<pics/rel_VAL_31_RR.png, id=82, 462.528pt x 346.896pt>
 File: pics/rel_VAL_31_RR.png Graphic file (type png)
 <use pics/rel_VAL_31_RR.png>
-Package pdftex.def Info: pics/rel_VAL_31_RR.png  used on input line 296.
-(pdftex.def)             Requested size: 144.0175pt x 108.01303pt.
+Package pdftex.def Info: pics/rel_VAL_31_RR.png  used on input line 297.
+(pdftex.def)             Requested size: 131.15878pt x 98.36882pt.
 
-Overfull \hbox (30.61827pt too wide) in paragraph at lines 296--297
+Overfull \hbox (27.88449pt too wide) in paragraph at lines 297--298
 [][] 
  []
 
-<pics/rel_GLY_31_RR.png, id=70, 462.528pt x 346.896pt>
+<pics/rel_GLY_31_RR.png, id=83, 462.528pt x 346.896pt>
 File: pics/rel_GLY_31_RR.png Graphic file (type png)
 <use pics/rel_GLY_31_RR.png>
-Package pdftex.def Info: pics/rel_GLY_31_RR.png  used on input line 299.
-(pdftex.def)             Requested size: 144.0175pt x 108.01303pt.
+Package pdftex.def Info: pics/rel_GLY_31_RR.png  used on input line 300.
+(pdftex.def)             Requested size: 131.15878pt x 98.36882pt.
 
-Overfull \hbox (30.61827pt too wide) in paragraph at lines 299--300
+Overfull \hbox (27.88449pt too wide) in paragraph at lines 300--301
 [][] 
  []
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 302.
+LaTeX Warning: Command \r invalid in math mode on input line 303.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 302.
+LaTeX Warning: Command \r invalid in math mode on input line 303.
+
+[7 <./pics/rel_PRO_22_SRS.png> <./pics/rel_LEU_22_SRS.png> <./pics/rel_VAL_22_S
+RS.png> <./pics/rel_GLY_22_SRS.png> <./pics/s3_293_acc.png> <./pics/r3_293_acc.
+png>]
+Underfull \hbox (badness 1112) in paragraph at lines 313--314
+[]\OT1/cmr/m/n/10 For each res-o-lu-tion case we tested a num-ber
+ []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5 <./pics/CM_22_RR.png> <./pics/rr22_acc.png> <./pics/DS_22_RR.png> <./pics/D
-S_norm_22_RR.png> <./pics/CM_22_RSR.png> <./pics/rsr22_acc.png> <./pics/rel_PRO
-_22_SRS.png> <./pics/rel_LEU_22_SRS.png> <./pics/rel_VAL_22_SRS.png> <./pics/re
-l_GLY_22_SRS.png>]
-
-LaTeX Warning: Command \r invalid in math mode on input line 314.
+LaTeX Warning: Command \r invalid in math mode on input line 315.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 320.
+LaTeX Warning: Command \r invalid in math mode on input line 321.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 325.
+LaTeX Warning: Command \r invalid in math mode on input line 326.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 328.
-
-[6 <./pics/s3_293_acc.png> <./pics/r3_293_acc.png> <./pics/CM_29_RR.png> <./pic
-s/CM_31_RR.png> <./pics/rel_PRO_29_RR.png> <./pics/rel_LEU_29_RR.png> <./pics/r
-el_VAL_29_RR.png> <./pics/rel_GLY_29_RR.png> <./pics/rel_PRO_31_RR.png> <./pics
-/rel_LEU_31_RR.png> <./pics/rel_VAL_31_RR.png> <./pics/rel_GLY_31_RR.png>]
-
-LaTeX Warning: Command \r invalid in math mode on input line 330.
+LaTeX Warning: Command \r invalid in math mode on input line 329.
 
 
 LaTeX Warning: Command \r invalid in math mode on input line 331.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 331.
+LaTeX Warning: Command \r invalid in math mode on input line 332.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--337
-[]|\OT1/ptm/m/n/9 Amino
+LaTeX Warning: Command \r invalid in math mode on input line 332.
+
+[8 <./pics/CM_29_RR.png> <./pics/CM_31_RR.png> <./pics/rel_PRO_29_RR.png> <./pi
+cs/rel_LEU_29_RR.png> <./pics/rel_VAL_29_RR.png> <./pics/rel_GLY_29_RR.png> <./
+pics/rel_PRO_31_RR.png> <./pics/rel_LEU_31_RR.png> <./pics/rel_VAL_31_RR.png> <
+./pics/rel_GLY_31_RR.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
+[]|\OT1/cmr/m/n/9 Amino
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--337
-\OT1/ptm/m/n/9 Acid
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
+\OT1/cmr/m/n/9 Acid
  []
 
 
-Underfull \hbox (badness 2644) in paragraph at lines 337--337
-[]|\OT1/ptm/m/n/9 Picks with
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
+\OT1/cmr/m/n/9 Con-fi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--337
-\OT1/ptm/m/n/9 Con-fi-dence
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
+\OT1/cmr/m/n/9 dence of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--337
-[]|\OT1/ptm/m/n/9 Total in
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
+[]|\OT1/cmr/m/n/9 Total in
  []
 
 
-Overfull \hbox (3.62454pt too wide) in paragraph at lines 340--341
+Overfull \hbox (3.62454pt too wide) in paragraph at lines 341--342
 []|$\OML/cmm/m/it/9 maj\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 N[]; N[]; N[]\OT1/cmr/m/
 n/9 )$| 
  []
 
 
-Overfull \hbox (9.20758pt too wide) in paragraph at lines 342--343
+Overfull \hbox (9.20758pt too wide) in paragraph at lines 343--344
 []|$\OML/cmm/m/it/9 mean\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 N[]; N[]; N[]\OT1/cmr/m
 /n/9 )$| 
  []
 
 
-Overfull \hbox (9.20758pt too wide) in paragraph at lines 346--347
+Overfull \hbox (9.20758pt too wide) in paragraph at lines 347--348
 []|$\OML/cmm/m/it/9 mean\OT1/cmr/m/n/9 (\OML/cmm/m/it/9 N[]; N[]; N[]\OT1/cmr/m
 /n/9 )$| 
  []
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 349.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 349.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 356--356
-[]|\OT1/ptm/m/n/8 Amino
+Overfull \hbox (21.63528pt too wide) in paragraph at lines 336--350
+[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--356
-\OT1/ptm/m/n/8 Acid
+LaTeX Warning: Command \r invalid in math mode on input line 350.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 350.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+[]|\OT1/cmr/m/n/10 Amino
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--356
-[]|\OT1/ptm/m/n/8 Picks with
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+\OT1/cmr/m/n/10 Acid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--356
-\OT1/ptm/m/n/8 Con-fi-dence
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+[]|\OT1/cmr/m/n/10 Picks
  []
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 374.
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+\OT1/cmr/m/n/10 with
+ []
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 374.
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+\OT1/cmr/m/n/10 Con-fi-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 357--357
+\OT1/cmr/m/n/10 dence of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+[]|\OT1/cmr/m/n/10 Total in
+ []
+
+
+Overfull \hbox (10.14725pt too wide) in paragraph at lines 368--369
+[]|$\OML/cmm/m/it/10 maj\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N[]; N[]; N[]\OT1/cmr
+/m/n/10 )$| 
+ []
+
+
+Overfull \hbox (24.63559pt too wide) in paragraph at lines 355--375
+[][] 
+ []
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 375.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 375.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 380--380
-[]|\OT1/ptm/m/n/8 Amino
+[]|\OT1/cmr/m/n/10 Amino
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 380--380
-\OT1/ptm/m/n/8 Acid
+\OT1/cmr/m/n/10 Acid
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 380--380
-[]|\OT1/ptm/m/n/8 Picks with
+[]|\OT1/cmr/m/n/10 Picks
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 380--380
-\OT1/ptm/m/n/8 Con-fi-dence
+\OT1/cmr/m/n/10 with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
+\OT1/cmr/m/n/10 Con-fi-
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 380--380
+\OT1/cmr/m/n/10 dence of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
+[]|\OT1/cmr/m/n/10 Total in
+ []
+
+
+Overfull \hbox (10.91426pt too wide) in paragraph at lines 393--394
+[]|$\OML/cmm/m/it/10 maj\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N[]; N[]; N[]\OT1/cmr
+/m/n/10 )$| 
+ []
+
+
+Overfull \hbox (24.63559pt too wide) in paragraph at lines 378--397
+[][] 
  []
 
 
@@ -1613,13 +1658,13 @@ LaTeX Warning: Command \r invalid in math mode on input line 401.
 
 LaTeX Warning: Command \r invalid in math mode on input line 401.
 
-<pics/map_PRO.png, id=99, 717.43031pt x 712.16063pt>
+<pics/map_PRO.png, id=109, 717.43031pt x 712.16063pt>
 File: pics/map_PRO.png Graphic file (type png)
 <use pics/map_PRO.png>
 Package pdftex.def Info: pics/map_PRO.png  used on input line 403.
-(pdftex.def)             Requested size: 258.0pt x 256.10596pt.
+(pdftex.def)             Requested size: 234.5pt x 232.77519pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 403--404
+Overfull \hbox (5.0pt too wide) in paragraph at lines 403--404
  [][] 
  []
 
@@ -1629,31 +1674,14 @@ LaTeX Warning: Command \r invalid in math mode on input line 407.
 
 LaTeX Warning: Command \r invalid in math mode on input line 407.
 
-<pics/lys_pore_GLY_LEU_LYS_TYR.png, id=100, 846.16125pt x 642.14906pt>
+<pics/lys_pore_GLY_LEU_LYS_TYR.png, id=110, 846.16125pt x 642.14906pt>
 File: pics/lys_pore_GLY_LEU_LYS_TYR.png Graphic file (type png)
 <use pics/lys_pore_GLY_LEU_LYS_TYR.png>
 Package pdftex.def Info: pics/lys_pore_GLY_LEU_LYS_TYR.png  used on input line 
 409.
-(pdftex.def)             Requested size: 258.0pt x 195.79149pt.
+(pdftex.def)             Requested size: 234.5pt x 177.9584pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 409--410
- [][] 
- []
-
-) (./srvr.tex
-
-LaTeX Warning: Command \r invalid in math mode on input line 7.
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 7.
-
-<pics/t2.png, id=101, 1445.4pt x 698.61pt>
-File: pics/t2.png Graphic file (type png)
-<use pics/t2.png>
-Package pdftex.def Info: pics/t2.png  used on input line 9.
-(pdftex.def)             Requested size: 258.0pt x 124.69969pt.
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 9--10
+Overfull \hbox (5.0pt too wide) in paragraph at lines 409--410
  [][] 
  []
 
@@ -1661,7 +1689,10 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 9--10
 
 LaTeX Warning: Command \r invalid in math mode on input line 3.
 
-[7 <./pics/map_PRO.png> <./pics/lys_pore_GLY_LEU_LYS_TYR.png>]
+
+Underfull \vbox (badness 1137) has occurred while \output is active []
+
+ [9 <./pics/map_PRO.png>]
 
 LaTeX Warning: Command \r invalid in math mode on input line 8.
 
@@ -1670,19 +1701,27 @@ LaTeX Warning: Command \r invalid in math mode on input line 8.
 
 ) (./references.tex
 (/Users/markroza/Documents/GitHub/papers_latex/AAnchor_BioInformatics_git/.texp
-adtmp/main.bbl))
+adtmp/main.bbl
+Underfull \hbox (badness 3803) in paragraph at lines 14--18
+[]\OT1/cmr/m/n/10 A. Barte-saghi, et al.  2.2 A res-o-lu-tion
+ []
 
-** Conference Paper **
-Before submitting the final camera ready copy, remember to:
 
- 1. Manually equalize the lengths of two columns on the last page
- of your paper;
+Underfull \hbox (badness 1681) in paragraph at lines 38--42
+[]\OT1/cmr/m/n/10 Z. Yu and C. Ba-jaj.  Com-pu-ta-tional ap-
+ []
 
- 2. Ensure that any PostScript and/or PDF output post-processing
- uses only Type 1 fonts and that every step in the generation
- process uses the appropriate paper size.
 
-[8 <./pics/t2.png>]
+Underfull \hbox (badness 1735) in paragraph at lines 38--42
+\OT1/cmr/m/n/10 large biomolec-u-lar com-plexes.  \OT1/cmr/m/it/10 IEEE/ACM
+ []
+
+[10 <./pics/lys_pore_GLY_LEU_LYS_TYR.png>]
+Underfull \hbox (badness 1107) in paragraph at lines 138--141
+[]\OT1/cmr/m/n/10 A. Merk, et al.  Break-ing cryo-em res-o-lu-
+ []
+
+)) [11]
 (/Users/markroza/Documents/GitHub/papers_latex/AAnchor_BioInformatics_git/.texp
 adtmp/main.aux)
 
@@ -1690,41 +1729,43 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17862 strings out of 492649
- 370191 string characters out of 6129622
- 447912 words of memory out of 5000000
- 21330 multiletter control sequences out of 15000+600000
- 44528 words of font info for 97 fonts, out of 8000000 for 9000
+ 17417 strings out of 492649
+ 358986 string characters out of 6129622
+ 430187 words of memory out of 5000000
+ 20894 multiletter control sequences out of 15000+600000
+ 15457 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,67p,1708b,752s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
-xlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/
-texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/tex
-live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive
-/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2
-018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/201
-8/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/
-type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2018/texmf-dist/fo
-nts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
-urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times
-/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.p
-fb>
+ 55i,13n,67p,859b,789s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pf
+b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
+018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2018/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2018/texmf-dist/f
+onts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/markroza/Documents/GitHub/papers_latex/AAnchor_BioInfo
-rmatics_git/.texpadtmp/main.pdf (8 pages, 3730283 bytes).
+rmatics_git/.texpadtmp/main.pdf (11 pages, 2385349 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 201 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.29)  17 JUN 2019 13:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.29)  4 SEP 2019 12:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -348,20 +348,20 @@ LaTeX Info: Redefining \cite on input line 694.
 expadtmp/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -432,17 +432,17 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package crop Info: requested driver: `' on input line 7.
-Package crop Info: detected driver: `pdftex' on input line 7.
-Package crop Info: using `pdftex' graphics driver on input line 7.
-LaTeX Font Info:    Try loading font information for LY1+phv on input line 37.
+Package crop Info: requested driver: `' on input line 10.
+Package crop Info: detected driver: `pdftex' on input line 10.
+Package crop Info: using `pdftex' graphics driver on input line 10.
+LaTeX Font Info:    Try loading font information for LY1+phv on input line 40.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ly1/ly1phv.fd
 File: ly1phv.fd 2001/02/01 scalable font definitions for LY1/phv using Berry na
 mes.
 )
 
-LaTeX Warning: File `OUP_First_SBk_Bot_8401.eps' not found on input line 37.
+LaTeX Warning: File `OUP_First_SBk_Bot_8401.eps' not found on input line 40.
 
 Package epstopdf Info: Source file: <OUP_First_SBk_Bot_8401.eps>
 (epstopdf)             Output file: <OUP_First_SBk_Bot_8401-eps-converted-to.pd
@@ -451,168 +451,168 @@ f>
 (epstopdf)                    size: 9259 bytes
 (epstopdf)             Command: <repstopdf --outfile=OUP_First_SBk_Bot_8401-eps
 -converted-to.pdf OUP_First_SBk_Bot_8401.eps>
-(epstopdf)             \includegraphics on input line 37.
+(epstopdf)             \includegraphics on input line 40.
 Package epstopdf Info: Output file is already uptodate.
 <OUP_First_SBk_Bot_8401-eps-converted-to.pdf, id=1, 54.2025pt x 54.2025pt>
 File: OUP_First_SBk_Bot_8401-eps-converted-to.pdf Graphic file (type pdf)
 <use OUP_First_SBk_Bot_8401-eps-converted-to.pdf>
 Package pdftex.def Info: OUP_First_SBk_Bot_8401-eps-converted-to.pdf  used on i
-nput line 37.
+nput line 40.
 (pdftex.def)             Requested size: 54.20236pt x 54.20236pt.
 LaTeX Font Info:    Font shape `LY1/phv/bx/n' in size <8> not available
-(Font)              Font shape `LY1/phv/b/n' tried instead on input line 37.
+(Font)              Font shape `LY1/phv/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `LY1/phv/bx/n' in size <18> not available
-(Font)              Font shape `LY1/phv/b/n' tried instead on input line 37.
+(Font)              Font shape `LY1/phv/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `LY1/phv/bx/n' in size <12> not available
-(Font)              Font shape `LY1/phv/b/n' tried instead on input line 37.
-LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+(Font)              Font shape `LY1/phv/b/n' tried instead on input line 40.
+LaTeX Font Info:    Try loading font information for U+msa on input line 40.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+LaTeX Font Info:    Try loading font information for U+msb on input line 40.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `LY1/phv/bx/n' in size <9> not available
-(Font)              Font shape `LY1/phv/b/n' tried instead on input line 37.
+(Font)              Font shape `LY1/phv/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `LY1/phv/bx/n' in size <7> not available
-(Font)              Font shape `LY1/phv/b/n' tried instead on input line 37.
+(Font)              Font shape `LY1/phv/b/n' tried instead on input line 40.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 37.
+(Font)              size <6> substituted on input line 40.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 37.
+(Font)              size <6> substituted on input line 40.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 37.
+(Font)              size <6> substituted on input line 40.
 
-LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 37.
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 40.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 37.
+(Font)              size <8> substituted on input line 40.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.25> not available
-(Font)              size <5> substituted on input line 37.
+(Font)              size <5> substituted on input line 40.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <8.5> not available
-(Font)              size <8> substituted on input line 37.
+(Font)              size <8> substituted on input line 40.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.25> not available
-(Font)              size <5> substituted on input line 37.
+(Font)              size <5> substituted on input line 40.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <8.5> not available
-(Font)              size <8> substituted on input line 37.
+(Font)              size <8> substituted on input line 40.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.25> not available
-(Font)              size <5> substituted on input line 37.
+(Font)              size <5> substituted on input line 40.
 
 LaTeX Font Info:    Font shape `LY1/phv/bx/n' in size <10> not available
-(Font)              Font shape `LY1/phv/b/n' tried instead on input line 37.
+(Font)              Font shape `LY1/phv/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `LY1/phv/m/it' in size <9> not available
-(Font)              Font shape `LY1/phv/m/sl' tried instead on input line 37.
+(Font)              Font shape `LY1/phv/m/sl' tried instead on input line 40.
 
-Underfull \hbox (badness 10000) detected at line 37
+Underfull \hbox (badness 10000) detected at line 40
 []
  []
 
 LaTeX Font Info:    Font shape `LY1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `LY1/ptm/b/n' tried instead on input line 44.
+(Font)              Font shape `LY1/ptm/b/n' tried instead on input line 47.
 
-Package natbib Warning: Citation `Bag01' on page 1 undefined on input line 44.
-
-
-LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 56.
+Package natbib Warning: Citation `Bag01' on page 1 undefined on input line 47.
 
 
-Package natbib Warning: Citation `Boffelli03' on page 1 undefined on input line
- 58.
-
-
-LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 67.
+LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 59.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 1 undefined on input line
- 69.
+ 61.
 
 
-LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 72.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 1 undefined on input line
- 74.
-
-
-LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 77.
+LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 70.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 1 undefined on input line
- 79.
+ 72.
 
 
-LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 90.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 1 undefined on input line
- 92.
-
-
-LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 95.
+LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 75.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 1 undefined on input line
- 97.
+ 77.
 
 
-LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 100.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 1 undefined on input line
- 102.
-
-
-LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 105.
+LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 80.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 1 undefined on input line
- 107.
+ 82.
 
 
-LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 113.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 1 undefined on input line
- 115.
-
-
-LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 118.
+LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 93.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 1 undefined on input line
- 120.
+ 95.
 
 
-LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 123.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 1 undefined on input line
- 125.
-
-
-LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 128.
+LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 98.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 1 undefined on input line
- 130.
+ 100.
+
+
+LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 103.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 1 undefined on input line
+ 105.
+
+
+LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 108.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 1 undefined on input line
+ 110.
+
+
+LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 116.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 1 undefined on input line
+ 118.
+
+
+LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 121.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 1 undefined on input line
+ 123.
+
+
+LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 126.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 1 undefined on input line
+ 128.
+
+
+LaTeX Warning: Reference `fig:02' on page 1 undefined on input line 131.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 1 undefined on input line
+ 133.
 
 
 Overfull \hbox (1.12001pt too wide) has occurred while \output is active
@@ -625,210 +625,210 @@ Overfull \hbox (1.12001pt too wide) has occurred while \output is active
 
  <./OUP_First_SBk_Bot_8401-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 137.
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 140.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 139.
+ 142.
 
 
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 142.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 144.
-
-
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 147.
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 145.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 149.
+ 147.
 
 
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 155.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 157.
-
-
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 160.
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 150.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 162.
+ 152.
 
 
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 170.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 172.
-
-
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 175.
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 158.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 177.
+ 160.
 
 
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 180.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 182.
-
-
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 185.
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 163.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 187.
+ 165.
 
 
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 190.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 192.
-
-
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 195.
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 173.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 197.
+ 175.
 
 
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 200.
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 178.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 202.
+ 180.
+
+
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 183.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
+ 185.
+
+
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 188.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
+ 190.
+
+
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 193.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
+ 195.
+
+
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 198.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
+ 200.
+
+
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 203.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
+ 205.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 211.
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 214.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 213.
+ 216.
 
 
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 216.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 218.
-
-
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 221.
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 219.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 223.
+ 221.
 
 
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 229.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 231.
-
-
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 234.
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 224.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 236.
+ 226.
 
 
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 239.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 241.
-
-
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 247.
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 232.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 249.
+ 234.
 
 
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 252.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 254.
-
-
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 257.
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 237.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 259.
+ 239.
 
 
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 262.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 264.
-
-
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 267.
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 242.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 269.
+ 244.
 
 
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 272.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 274.
-
-
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 277.
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 250.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 279.
+ 252.
 
 
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 288.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 290.
-
-
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 293.
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 255.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 295.
+ 257.
 
 
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 298.
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 260.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
- 300.
+ 262.
+
+
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 265.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
+ 267.
+
+
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 270.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
+ 272.
+
+
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 275.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
+ 277.
+
+
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 280.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
+ 282.
+
+
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 291.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
+ 293.
+
+
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 296.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
+ 298.
+
+
+LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 301.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 2 undefined on input line
+ 303.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `LY1/phv/m/it' in size <8> not available
-(Font)              Font shape `LY1/phv/m/sl' tried instead on input line 304.
+(Font)              Font shape `LY1/phv/m/sl' tried instead on input line 307.
 
 Overfull \hbox (252.0pt too wide) has occurred while \output is active
 [][] 
@@ -836,225 +836,225 @@ Overfull \hbox (252.0pt too wide) has occurred while \output is active
 
 [2]
 
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 306.
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 309.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 308.
+ 311.
 
 
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 311.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 313.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 316.
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 314.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 318.
+ 316.
 
 
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 323.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 325.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 328.
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 319.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 330.
+ 321.
 
 
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 333.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 335.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 339.
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 326.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 341.
+ 328.
 
 
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 344.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 346.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 349.
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 331.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 351.
+ 333.
 
 
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 354.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 356.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 363.
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 336.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 365.
+ 338.
 
 
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 368.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 370.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 373.
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 342.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 375.
+ 344.
 
-LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 384.
+
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 347.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
+ 349.
+
+
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 352.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
+ 354.
+
+
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 357.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
+ 359.
+
+
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 366.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
+ 368.
+
+
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 371.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
+ 373.
+
+
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 376.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
+ 378.
+
+LaTeX Font Info:    Calculating math sizes for size <7.5> on input line 387.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 384.
+(Font)              size <7> substituted on input line 387.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.75> not available
-(Font)              size <5> substituted on input line 384.
+(Font)              size <5> substituted on input line 387.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.5> not available
-(Font)              size <7> substituted on input line 384.
+(Font)              size <7> substituted on input line 387.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.75> not available
-(Font)              size <5> substituted on input line 384.
+(Font)              size <5> substituted on input line 387.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.5> not available
-(Font)              size <7> substituted on input line 384.
+(Font)              size <7> substituted on input line 387.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.75> not available
-(Font)              size <5> substituted on input line 384.
+(Font)              size <5> substituted on input line 387.
 
-LaTeX Font Info:    Try loading font information for LY1+phb on input line 384.
+LaTeX Font Info:    Try loading font information for LY1+phb on input line 387.
 
-LaTeX Font Info:    No file LY1phb.fd. on input line 384.
+LaTeX Font Info:    No file LY1phb.fd. on input line 387.
 
 LaTeX Font Warning: Font shape `LY1/phb/m/n' undefined
-(Font)              using `LY1/ptm/m/n' instead on input line 384.
+(Font)              using `LY1/ptm/m/n' instead on input line 387.
 
 
 LaTeX Font Warning: Font shape `LY1/phb/bx/n' undefined
-(Font)              using `LY1/phb/m/n' instead on input line 384.
+(Font)              using `LY1/phb/m/n' instead on input line 387.
 
 
-Overfull \hbox (12.0pt too wide) in paragraph at lines 384--384
+Overfull \hbox (12.0pt too wide) in paragraph at lines 387--387
 []$[]$ 
  []
 
 
-Overfull \hbox (1.0pt too wide) in paragraph at lines 392--394
+Overfull \hbox (1.0pt too wide) in paragraph at lines 395--397
 [][][][][][][] 
  []
 
 LaTeX Font Info:    Font shape `LY1/phv/bx/n' in size <6.5> not available
-(Font)              Font shape `LY1/phv/b/n' tried instead on input line 394.
+(Font)              Font shape `LY1/phv/b/n' tried instead on input line 397.
 
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 404.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 406.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 409.
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 407.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 411.
+ 409.
 
 
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 414.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 416.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 423.
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 412.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 425.
+ 414.
 
 
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 428.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 430.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 433.
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 417.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 435.
+ 419.
 
 
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 445.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 447.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 450.
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 426.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 452.
+ 428.
 
 
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 459.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 461.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 463.
-
-
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 490.
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 431.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 492.
+ 433.
 
 
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 495.
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 436.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
- 497.
+ 438.
 
 
-LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 500.
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 448.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
+ 450.
+
+
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 453.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
+ 455.
+
+
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 462.
+
+
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 464.
+
+
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 466.
+
+
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 493.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
+ 495.
+
+
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 498.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 3 undefined on input line
+ 500.
+
+
+LaTeX Warning: Reference `fig:02' on page 3 undefined on input line 503.
 
 
 Overfull \hbox (252.0pt too wide) has occurred while \output is active
@@ -1063,45 +1063,45 @@ Overfull \hbox (252.0pt too wide) has occurred while \output is active
 
 [3]
 
-LaTeX Warning: Reference `fig:02' on page 4 undefined on input line 507.
+LaTeX Warning: Reference `fig:02' on page 4 undefined on input line 510.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 4 undefined on input line
- 509.
+ 512.
 
 
-LaTeX Warning: Reference `fig:02' on page 4 undefined on input line 519.
-
-
-Package natbib Warning: Citation `Boffelli03' on page 4 undefined on input line
- 521.
-
-
-LaTeX Warning: Reference `fig:02' on page 4 undefined on input line 524.
+LaTeX Warning: Reference `fig:02' on page 4 undefined on input line 522.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 4 undefined on input line
- 526.
+ 524.
+
+
+LaTeX Warning: Reference `fig:02' on page 4 undefined on input line 527.
+
+
+Package natbib Warning: Citation `Boffelli03' on page 4 undefined on input line
+ 529.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `fig:02' on page 4 undefined on input line 533.
+LaTeX Warning: Reference `fig:02' on page 4 undefined on input line 536.
 
 
 Package natbib Warning: Citation `Boffelli03' on page 4 undefined on input line
- 539.
+ 542.
 
 
 (/Users/markroza/Documents/GitHub/papers_latex/BioInformaticWorkWithMendeley/.t
 expadtmp/main.bbl)
 - LAST -
-Extra skip:0.496pt
-Left:245.624pt/0.0pt
-Right:244.0pt/1.12799pt
-Output:246.312pt
+Extra skip:35.888pt
+Left:290.624pt/0.0pt
+Right:253.0pt/1.736pt
+Output:290.812pt
 
 Overfull \hbox (252.0pt too wide) has occurred while \output is active
 [][] 
@@ -1126,10 +1126,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4171 strings out of 492649
- 54512 string characters out of 6129622
- 140287 words of memory out of 5000000
- 7942 multiletter control sequences out of 15000+600000
+ 4181 strings out of 492649
+ 54639 string characters out of 6129622
+ 140472 words of memory out of 5000000
+ 7952 multiletter control sequences out of 15000+600000
  59771 words of font info for 107 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  41i,11n,29p,853b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1149,7 +1149,7 @@ ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/
 times/utmri8a.pfb>
 Output written on /Users/markroza/Documents/GitHub/papers_latex/BioInformaticWo
-rkWithMendeley/.texpadtmp/main.pdf (4 pages, 125667 bytes).
+rkWithMendeley/.texpadtmp/main.pdf (4 pages, 127584 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream

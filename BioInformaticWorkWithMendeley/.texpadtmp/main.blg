@@ -1,49 +1,49 @@
 This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
-The style file: plain.bst
-Database file #1: ../mybib.bib
+The style file: ../abbrvnat.bst
+Database file #1: ../r1.bib
 Warning--I didn't find a database entry for "Bag01"
 Warning--I didn't find a database entry for "Boffelli03"
-You've used 1 entry,
-            2118 wiz_defined-function locations,
-            507 strings with 4283 characters,
-and the built_in function-call counts, 322 in all, are:
-= -- 27
-> -- 23
+You've used 3 entries,
+            2796 wiz_defined-function locations,
+            628 strings with 5430 characters,
+and the built_in function-call counts, 1583 in all, are:
+= -- 151
+> -- 96
 < -- 0
-+ -- 9
-- -- 8
-* -- 23
-:= -- 66
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 7
-chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 10
-empty$ -- 18
-format.name$ -- 8
-if$ -- 59
-int.to.chr$ -- 0
++ -- 34
+- -- 28
+* -- 140
+:= -- 256
+add.period$ -- 14
+call.type$ -- 3
+change.case$ -- 20
+chr.to.int$ -- 3
+cite$ -- 6
+duplicate$ -- 62
+empty$ -- 113
+format.name$ -- 31
+if$ -- 320
+int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 7
+missing$ -- 3
+newline$ -- 28
+num.names$ -- 12
+pop$ -- 31
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 17
 quote$ -- 0
-skip$ -- 7
+skip$ -- 51
 stack$ -- 0
-substring$ -- 5
-swap$ -- 1
+substring$ -- 57
+swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
+type$ -- 33
 warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 12
+while$ -- 13
+width$ -- 0
+write$ -- 55
 (There were 2 warnings)

@@ -5,7 +5,7 @@ The two main building blocks of our method are a \textbf{classification} CNN and
 The detection algorithm generates candidates for the classification CNN and filters out candidates of expected low accuracy. 
 
 \subsection{A CNN for the classification task}
-Convolutional neural networks (CNN) were proposed by Yann LeCun in 1989 for zip code recognition \cite[]{Y.LeCunB.BoserJ.S.DenkerD.HendersonR.E.Howard1989BackpropagationRecognition}.
+Convolutional neural networks (CNN) were proposed by Yann LeCun in 1989 for zip code recognition \cite[]{Y.LeCunB.BoserJ.S.DenkerD.HendersonR.E.Howard1989}.
 A CNN consists of alternating convolutional and pooling layers optionally followed by fully connected layers.
 The first and last layers are  the input and  output layer respectively, while the other layers are referred to as hidden layers.
 
@@ -23,7 +23,7 @@ Given a set of labeled data pairs $\{(\xf^i,\yf^i)\}_{i=1}^M$, the training proc
 \end{array}
 \end{equation}
 where $d(\cdot,\cdot)$ is the loss function expressing a penalty for an incorrect classification.
-For a comprehensive discussion of CNNs the reader is referred to  \cite[]{Goodfellow2016DeepLearning}.
+For a comprehensive discussion of CNNs the reader is referred to  \cite[]{Goodfellow2016}.
 
 \subsection{Softmax CNN for the Amino Acids Classification}
 We formulate the amino acids classification problem as a multiclass classification of volume cubes of a cryo-EM map.
@@ -45,7 +45,7 @@ Since $\sum\limits_i p_i(\yf) =1$ and $0\leq p_i(\yf) \leq 1$, the output of the
 \subsection{Network Architecture and Training Details}
 The detailed architecture of the applied softmax CNN is presented in Table ~\ref{ta}.
 We use the rectified linear (ReLU) activition function which is known to provide the best learning rate in image classification tasks \cite[]{Krizhevsky}.
-Keras \cite[]{Chollet2015Keras} is used to implement and train the softmax CNN.
+Keras \cite[]{Chollet2015} is used to implement and train the softmax CNN.
 The training time for one epoch was 3 minutes for one million samples on a server with 4 NVIDIA Titan black GPUs, each with 2880 cores.
 
 \subsection{Preparation of the Datasets for the Training Stage}
@@ -60,9 +60,9 @@ We have applied the above described procedure to several diverse datasets.
 Since there is not enough experimental data to perform proper training, we have used
 both available experimental datasets as well as datasets of simulated EM maps at the required resolutions.  Simulated and experimental datasets were created for each of the resolution spans presented in Table ~\ref{t0}.
 
-The \textbf {simulated } dataset consists of structures from the Dunbrack Rotamers Library \cite[]{Shapovalov2011ARegressions} and cryo EM maps created using the UCSF Chimera \cite[]{Pettersen2004UCSFAnalysis} \textit{molmap} command. Each map was created at a randomly selected resolution within a given resolution span.
+The \textbf {simulated } dataset consists of structures from the Dunbrack Rotamers Library \cite[]{Shapovalov2011} and cryo EM maps created using the UCSF Chimera \cite[]{Pettersen2004} \textit{molmap} command. Each map was created at a randomly selected resolution within a given resolution span.
 
-The \textbf{experimental} dataset consists of publicly available cryo EM maps from the EMDataBank \cite[]{Lawson2016EMDataBank3DEM} within the required resolution span together with aligned/fitted PDB structures.
+The \textbf{experimental} dataset consists of publicly available cryo EM maps from the EMDataBank \cite[]{Lawson2016} within the required resolution span together with aligned/fitted PDB structures.
 
 A \textbf{data augmentation } procedure was employed to increase the dataset and reduce the overfitting effect.
 Each map was rotated at a random angle together with the corresponding fitted atomic-resolution model and the rotated map and model were added to the dataset.

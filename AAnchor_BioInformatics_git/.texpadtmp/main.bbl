@@ -1,165 +1,191 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{xx}
 
-\bibitem{kuhlbrandt2014resolution}
-W.~K{\"u}hlbrandt.
-\newblock The resolution revolution.
-\newblock {\em Science}, 343(6178):1443--1444, 2014.
+\harvarditem[Banerjee et~al.]{Banerjee, Bartesaghi, Merk, Rao, Bulfer, Yan,
+  Green, Mroczkowski, Neitz, Wipf, Falconieri, Deshaies, Milne, Huryn, Arkin
+  \harvardand\ Subramaniam}{2016}{Banerjee2016}
+Banerjee, S., Bartesaghi, A., Merk, A., Rao, P., Bulfer, S.~L., Yan, Y., Green,
+  N., Mroczkowski, B., Neitz, R.~J., Wipf, P., Falconieri, V., Deshaies, R.~J.,
+  Milne, J.~L., Huryn, D., Arkin, M. \harvardand\ Subramaniam, S.
+  \harvardyearleft 2016\harvardyearright , `{2.3 {\AA} resolution cryo-EM
+  structure of human p97 and mechanism of allosteric inhibition}', {\em
+  Science} .
 
-\bibitem{Lawson2016EMDataBank3DEM}
-C.~L. Lawson, et~al.
-\newblock Emdatabank unified data resource for 3dem.
-\newblock {\em Nucleic acids research}, 44(D1):D396--D403, 2015.
+\harvarditem[Bartesaghi et~al.]{Bartesaghi, Merk, Banerjee, Matthies, Wu, Milne
+  \harvardand\ Subramaniam}{2015}{Bartesaghi2015}
+Bartesaghi, A., Merk, A., Banerjee, S., Matthies, D., Wu, X., Milne, J. L.~S.
+  \harvardand\ Subramaniam, S.  \harvardyearleft 2015\harvardyearright , `{2.2
+  A resolution cryo-EM structure of $\beta$-galactosidase in complex with a
+  cell-permeant inhibitor}', {\em Science} {\bf 348}(6239),~1147--1151.
+\newline\harvardurl{http://science.sciencemag.org/content/348/6239/1147}
 
-\bibitem{Bartesaghi20152.2Inhibitor}
-A.~Bartesaghi, et~al.
-\newblock {2.2 A resolution cryo-EM structure of {$\beta$}-galactosidase in
-  complex with a cell-permeant inhibitor}.
-\newblock {\em Science}, 348(6239):1147--1151, 2015.
+\harvarditem[Bokori-Brown et~al.]{Bokori-Brown, Martin, Naylor, Basak, Titball
+  \harvardand\ Savva}{2016}{Bokori-Brown2016}
+Bokori-Brown, M., Martin, T.~G., Naylor, C.~E., Basak, A.~K., Titball, R.~W.
+  \harvardand\ Savva, C.~G.  \harvardyearleft 2016\harvardyearright , `{Cryo-EM
+  structure of lysenin pore elucidates membrane insertion by an aerolysin
+  family protein}', {\em Nature Communications} .
 
-\bibitem{Banerjee20162.3Inhibition}
-S.~Banerjee, et~al.
-\newblock 2.3 {\aa} resolution cryo-em structure of human p97 and mechanism of
-  allosteric inhibition.
-\newblock {\em Science}, pages 871--875, 2016.
+\harvarditem[Cassidy et~al.]{Cassidy, Himes, Luthey-Schulten \harvardand\
+  Zhang}{2018}{Cassidy2018}
+Cassidy, C.~K., Himes, B.~A., Luthey-Schulten, Z. \harvardand\ Zhang, P.
+  \harvardyearleft 2018\harvardyearright , `{CryoEM-based hybrid modeling
+  approaches for structure determination}', {\em Curr. Opin. MicroBio.} {\bf
+  43},~14----23.
 
-\bibitem{Jiang2001}
-W.~Jiang, et~al.
-\newblock {Bridging the information gap: Computational tools for intermediate
-  resolution structure interpretation}.
-\newblock {\em J. Mol. Biol.}, 308(5):1033--1044, 2001.
+\harvarditem[Chen et~al.]{Chen, Baldwin, Ludtke \harvardand\
+  Baker}{2016}{Chen2016}
+Chen, M., Baldwin, P.~R., Ludtke, S.~J. \harvardand\ Baker, M.~L.
+  \harvardyearleft 2016\harvardyearright , `{De Novo modeling in cryo-EM
+  density maps with Pathwalking}', {\em Journal of Structural Biology} .
 
-\bibitem{lasker2007ematch}
-K.~Lasker, et~al.
-\newblock Ematch: discovery of high resolution structural homologues of protein
-  domains in intermediate resolution cryo-em maps.
-\newblock {\em IEEE/ACM TCBB}, 4(1):28--39, 2007.
+\harvarditem{Chollet \harvardand\ Others}{2015}{Chollet2015}
+Chollet, F. \harvardand\ Others  \harvardyearleft 2015\harvardyearright ,
+  `{Keras}', https://keras.io.
 
-\bibitem{Yu2008}
-Z.~Yu and C.~Bajaj.
-\newblock Computational approaches for automatic structural analysis of large
-  biomolecular complexes.
-\newblock {\em IEEE/ACM TCBB}, 5(4):568--582, 2008.
+\harvarditem{DiMaio \harvardand\ Chiu}{2016}{DiMaio2016}
+DiMaio, F. \harvardand\ Chiu, W.  \harvardyearleft 2016\harvardyearright ,
+  {Tools for Model Building and Optimization into Near-Atomic Resolution
+  Electron Cryo-Microscopy Density Maps}, {\em in} `Methods in Enzymology'.
 
-\bibitem{Rusu2012}
-M.~Rusu and W.~Wriggers.
-\newblock Evolutionary bidirectional expansion for the tracing of alpha helices
-  in cryo-electron microscopy reconstructions.
-\newblock {\em J. Struct. Biol.}, 177(2):410--419, 2012.
+\harvarditem[Dong et~al.]{Dong, Liu, Jiang, Smith, Xu \harvardand\
+  Rossmann}{2017}{Dong2017}
+Dong, Y., Liu, Y., Jiang, W., Smith, T.~J., Xu, Z. \harvardand\ Rossmann, M.~G.
+   \harvardyearleft 2017\harvardyearright , `{Antibody-induced uncoating of
+  human rhinovirus B14}', {\em Proceedings of the National Academy of Sciences}
+  .
 
-\bibitem{Si2012}
-D.~Si, et~al.
-\newblock A machine learning approach for the identification of protein
-  secondary structure elements from electron cryo-microscopy density maps.
-\newblock volume~97, pages 698--708. Wiley Online Library, 2012.
+\harvarditem[Dror et~al.]{Dror, Lasker, Nussinov \harvardand\
+  Wolfson}{2007}{Dror2007}
+Dror, O., Lasker, K., Nussinov, R. \harvardand\ Wolfson, H.  \harvardyearleft
+  2007\harvardyearright , `{EMatch: An efficient method for aligning atomic
+  resolution subunits into intermediate-resolution cryo-EM maps of large
+  macromolecular assemblies}', {\em Acta Crystallogr., Sect D} {\bf
+  D63}(1),~42----49.
 
-\bibitem{DiMaio2016}
-F.~DiMaio and W.~Chiu.
-\newblock Tools for model building and optimization into near-atomic resolution
-  electron cryo-microscopy density maps.
-\newblock In {\em Methods in enzymology}, volume 579, pages 255--276. Elsevier,
-  2016.
+\harvarditem{Fawcett}{2006}{Fawcett2006}
+Fawcett, T.  \harvardyearleft 2006\harvardyearright , `{An introduction to ROC
+  analysis}', {\em Pattern Recognition Letters} {\bf 27}(8),~861--874.
+\newline\harvardurl{https://www.sciencedirect.com/science/article/pii/S016786550500303X}
 
-\bibitem{Chen2016}
-M.~Chen, et~al.
-\newblock De novo modeling in cryo-em density maps with pathwalking.
-\newblock {\em Journal of structural biology}, 196(3):289--298, 2016.
+\harvarditem[Girshick et~al.]{Girshick, Donahue, Darrell \harvardand\
+  Malik}{2014}{Girshick2014}
+Girshick, R., Donahue, J., Darrell, T. \harvardand\ Malik, J.  \harvardyearleft
+  2014\harvardyearright , {Rich feature hierarchies for accurate object
+  detection and semantic segmentation}, {\em in} `Proceedings of the IEEE
+  Computer Society Conference on Computer Vision and Pattern Recognition'.
 
-\bibitem{Terashi2018}
-G.~Terashi and D.~Kihara.
-\newblock De novo main-chain modeling with mainmast in 2015/2016 em model
-  challenge, 2018.
+\harvarditem[Goodfellow et~al.]{Goodfellow, Bengio \harvardand\
+  Courville}{2016}{Goodfellow2016}
+Goodfellow, I., Bengio, Y. \harvardand\ Courville, A.  \harvardyearleft
+  2016\harvardyearright , {\em {Deep Learning}}, MIT Press.
 
-\bibitem{wang2015novo}
-R.~Y.-R. Wang, et~al.
-\newblock De novo protein structure determination from near-atomic-resolution
-  cryo-em maps.
-\newblock {\em Nature methods}, 12(4):335--338, 2015.
+\harvarditem[Guo et~al.]{Guo, Pleiss, Sun \harvardand\
+  Weinberger}{2017}{Guo2017}
+Guo, C., Pleiss, G., Sun, Y. \harvardand\ Weinberger, K.~Q.  \harvardyearleft
+  2017\harvardyearright , `{On Calibration of Modern Neural Networks}'.
 
-\bibitem{Cassidy2018}
-C.~K. Cassidy, et~al.
-\newblock {CryoEM-based hybrid modeling approaches for structure
-  determination}.
-\newblock {\em Curr. Opin. MicroBio.}, 43:14--23, 2018.
+\harvarditem[Jiang et~al.]{Jiang, Pentelute, Collier \harvardand\ {Hong
+  Zhou}}{2015}{Jiang2015}
+Jiang, J., Pentelute, B.~L., Collier, R.~J. \harvardand\ {Hong Zhou}, Z.
+  \harvardyearleft 2015\harvardyearright , `{Atomic structure of anthrax
+  protective antigen pore elucidates toxin translocation}', {\em Nature} .
 
-\bibitem{Bokori-Brown2016Cryo-EMProtein}
-M.~Bokori-Brown, et~al.
-\newblock Cryo-em structure of lysenin pore elucidates membrane insertion by an
-  aerolysin family protein.
-\newblock {\em Nature Commun.}, 7:11293, 2016.
+\harvarditem[Jiang et~al.]{Jiang, Baker, Ludtke \harvardand\
+  Chiu}{2001}{Jiang2001}
+Jiang, W., Baker, M.~L., Ludtke, S.~J. \harvardand\ Chiu, W.  \harvardyearleft
+  2001\harvardyearright , `{Bridging the information gap: Computational tools
+  for intermediate resolution structure interpretation}', {\em J. Mol. Biol.}
+  {\bf 308}(5),~1033----1044.
 
-\bibitem{Y.LeCunB.BoserJ.S.DenkerD.HendersonR.E.Howard1989BackpropagationRecognition}
-Y.~LeCun, et~al.
-\newblock Backpropagation applied to handwritten zip code recognition.
-\newblock {\em Neural computation}, 1(4):541--551, 1989.
+\harvarditem[Krizhevsky et~al.]{Krizhevsky, Sutskever \harvardand\
+  Hinton}{2012}{Krizhevsky}
+Krizhevsky, A., Sutskever, I. \harvardand\ Hinton, G.~E.  \harvardyearleft
+  2012\harvardyearright , {ImageNet Classification with Deep Convolutional
+  Neural Networks}, {\em in} `Proceeding NIPS'12 Proceedings of the 25th
+  International Conference on Neural Information Processing Systems', Lake
+  Tahoe, Nevada, pp.~1097--1105.
 
-\bibitem{Goodfellow2016DeepLearning}
-I.~Goodfellow, et~al.
-\newblock {\em {Deep Learning}}.
-\newblock MIT Press, 2016.
+\harvarditem{K{\"{u}}hlbrandt}{2014}{Kuhlbrandt2014}
+K{\"{u}}hlbrandt, W.  \harvardyearleft 2014\harvardyearright , `{The Resolution
+  Revolution}',  {\bf 343}(March).
 
-\bibitem{Krizhevsky}
-A.~Krizhevsky, et~al.
-\newblock Imagenet classification with deep convolutional neural networks.
-\newblock In {\em Adv. Neural Inf. Process Syst.}, pages 1097--1105, 2012.
+\harvarditem[Lawson et~al.]{Lawson, Patwardhan, Baker, Hryc, Garcia, Hudson,
+  Lagerstedt, Ludtke, Pintilie, Sala, Westbrook, Berman, Kleywegt \harvardand\
+  Chiu}{2016}{Lawson2016}
+Lawson, C.~L., Patwardhan, A., Baker, M.~L., Hryc, C., Garcia, E.~S., Hudson,
+  B.~P., Lagerstedt, I., Ludtke, S.~J., Pintilie, G., Sala, R., Westbrook,
+  J.~D., Berman, H.~M., Kleywegt, G.~J. \harvardand\ Chiu, W.  \harvardyearleft
+  2016\harvardyearright , `{EMDataBank unified data resource for 3DEM}', {\em
+  Nucleic Acids Research} .
 
-\bibitem{Chollet2015Keras}
-F.~Chollet et~al.
-\newblock Keras, 2015.
+\harvarditem[Long et~al.]{Long, Shelhamer \harvardand\ Darrell}{2015}{Long2015}
+Long, J., Shelhamer, E. \harvardand\ Darrell, T.  \harvardyearleft
+  2015\harvardyearright , `{Fully convolutional networks for semantic
+  segmentation}', {\em Proceedings of the IEEE Computer Society Conference on
+  Computer Vision and Pattern Recognition} {\bf 07-12-June},~3431--3440.
 
-\bibitem{Shapovalov2011ARegressions}
-M.~V. Shapovalov and R.~L. Dunbrack~Jr.
-\newblock A smoothed backbone-dependent rotamer library for proteins derived
-  from adaptive kernel density estimates and regressions.
-\newblock {\em Structure}, 19(6):844--858, 2011.
+\harvarditem[Merk et~al.]{Merk, Bartesaghi, Banerjee, Falconieri, Rao, Davis,
+  Pragani, Boxer, Earl, Milne \harvardand\ Subramaniam}{2016}{Merk2016}
+Merk, A., Bartesaghi, A., Banerjee, S., Falconieri, V., Rao, P., Davis, M.~I.,
+  Pragani, R., Boxer, M.~B., Earl, L.~A., Milne, J.~L. \harvardand\
+  Subramaniam, S.  \harvardyearleft 2016\harvardyearright , `{Breaking Cryo-EM
+  Resolution Barriers to Facilitate Drug Discovery}', {\em Cell} .
 
-\bibitem{Pettersen2004UCSFAnalysis}
-E.~F. Pettersen, et~al.
-\newblock Ucsf chimera - a visualization system for exploratory research and
-  analysis.
-\newblock {\em J.Comp. Chem.}, 25(13):1605--1612, 2004.
+\harvarditem[Naseem et~al.]{Naseem, Togneri \harvardand\
+  Bennamoun}{2010}{Naseem2010}
+Naseem, I., Togneri, R. \harvardand\ Bennamoun, M.  \harvardyearleft
+  2010\harvardyearright , `{Linear regression for face recognition}', {\em IEEE
+  Transactions on Pattern Analysis and Machine Intelligence} .
 
-\bibitem{Fawcett2006AnAnalysis}
-T.~Fawcett.
-\newblock {An introduction to ROC analysis}.
-\newblock {\em Pattern Recognition Letters}, 27(8):861--874, 2006.
+\harvarditem[Pettersen et~al.]{Pettersen, Goddard, Huang, Couch, Greenblatt,
+  Meng \harvardand\ Ferrin}{2004}{Pettersen2004}
+Pettersen, E.~F., Goddard, T.~D., Huang, C.~C., Couch, G.~S., Greenblatt,
+  D.~M., Meng, E.~C. \harvardand\ Ferrin, T.~E.  \harvardyearleft
+  2004\harvardyearright , `{UCSF Chimera - A visualization system for
+  exploratory research and analysis}', {\em Journal of Computational Chemistry}
+  .
 
-\bibitem{Guo2017OnNetworks}
-C.~Guo, et~al.
-\newblock On calibration of modern neural networks.
-\newblock In {\em Proceedings of the 34th Int. Conf. on Machine Learning},
-  2017.
+\harvarditem{Rusu \harvardand\ Wriggers}{2012}{Rusu2012}
+Rusu, M. \harvardand\ Wriggers, W.  \harvardyearleft 2012\harvardyearright ,
+  `{Evolutionary bidirectional expansion for the tracing of alpha helices in
+  cryo-electron microscopy reconstructions}', {\em Journal of Structural
+  Biology} .
 
-\bibitem{Dong2017Antibody-inducedB14}
-Y.~Dong, et~al.
-\newblock Antibody-induced uncoating of human rhinovirus b14.
-\newblock {\em Proc. Natl. Acad. Sci.}, 114(30):8017--8022, 2017.
+\harvarditem{Shapovalov \harvardand\ Dunbrack}{2011}{Shapovalov2011}
+Shapovalov, M.~V. \harvardand\ Dunbrack, R.~L.  \harvardyearleft
+  2011\harvardyearright , `{A smoothed backbone-dependent rotamer library for
+  proteins derived from adaptive kernel density estimates and regressions}',
+  {\em Structure} .
 
-\bibitem{Merk2016BreakingDiscovery}
-A.~Merk, et~al.
-\newblock Breaking cryo-em resolution barriers to facilitate drug discovery.
-\newblock {\em Cell}, 165(7):1698--1707, 2016.
+\harvarditem[Si et~al.]{Si, Ji, Nasr \harvardand\ He}{2012}{Si2012}
+Si, D., Ji, S., Nasr, K.~A. \harvardand\ He, J.  \harvardyearleft
+  2012\harvardyearright , {A machine learning approach for the identification
+  of protein secondary structure elements from electron cryo-microscopy density
+  maps}, {\em in} `Biopolymers'.
 
-\bibitem{jiang2015atomic}
-J.~Jiang, et~al.
-\newblock Atomic structure of anthrax protective antigen pore elucidates toxin
-  translocation.
-\newblock {\em Nature}, 521(7553):545, 2015.
+\harvarditem{Terashi \harvardand\ Kihara}{2018}{Terashi2018}
+Terashi, G. \harvardand\ Kihara, D.  \harvardyearleft 2018\harvardyearright ,
+  `{De novo main-chain modeling with MAINMAST in 2015/2016 EM Model
+  Challenge}'.
 
-\bibitem{Naseem2010LinearRecognition}
-I.~Naseem, et~al.
-\newblock Linear regression for face recognition.
-\newblock {\em IEEE Trans. Pattern Anal. Mach. Intell}, 32(11):2106--2112,
-  2010.
+\harvarditem[Wang et~al.]{Wang, Kudryashev, Li, Egelman, Basler, Cheng, Baker
+  \harvardand\ DiMaio}{2015}{Wang2015}
+Wang, R. Y.-R., Kudryashev, M., Li, X., Egelman, E.~H., Basler, M., Cheng, Y.,
+  Baker, D. \harvardand\ DiMaio, F.  \harvardyearleft 2015\harvardyearright ,
+  `{De novo protein structure determination from near-atomic resolution cryo-EM
+  maps}', {\em Nature Methods} {\bf 12}(4),~335--338.
 
-\bibitem{Girshick2014}
-R.~Girshick, et~al.
-\newblock Rich feature hierarchies for accurate object detection and semantic
-  segmentation.
-\newblock In {\em Proc. IEEE CVPR}, pages 580--587, 2014.
+\harvarditem{{Y. LeCun, B. Boser, J. S. Denker, D. Henderson, R. E. Howard}
+  \harvardand\ Jackel}{1989}{Y.LeCunB.BoserJ.S.DenkerD.HendersonR.E.Howard1989}
+{Y. LeCun, B. Boser, J. S. Denker, D. Henderson, R. E. Howard}, W.~H.
+  \harvardand\ Jackel, L.~D.  \harvardyearleft 1989\harvardyearright ,
+  `{Backpropagation Applied to Handwritten Zip Code Recognition}', {\em Neural
+  Computation} {\bf 1}(4),~541--551.
 
-\bibitem{Long2015FullySegmentation}
-J.~Long, et~al.
-\newblock Fully convolutional networks for semantic segmentation.
-\newblock In {\em Proc. IEEE CVPR}, pages 3431--3440, 2015.
+\harvarditem{Yu \harvardand\ Bajaj}{2008}{Yu2008}
+Yu, Z. \harvardand\ Bajaj, C.  \harvardyearleft 2008\harvardyearright ,
+  `{Computational approaches for automatic structural analysis of large
+  biomolecular complexes}', {\em IEEE/ACM Transactions on Computational Biology
+  and Bioinformatics} .
 
 \end{thebibliography}

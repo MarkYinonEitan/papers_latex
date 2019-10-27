@@ -1,0 +1,77 @@
+\section{Introduction}
+\subsection{General}
+Cellular processes are performed and regulated by assemblies of macromolecules. Such assemblies, which are often referred to as molecular machines \cite{Alberts1998TheMachines}, vary widely in their lifespan, size, activity and dynamics. Complete understanding of the function and dynamics of an assembly is derived from its detailed atomic structure.
+Structural characterization of macromolecular assemblies  represents a major challenge in structural biology.
+While there exist contemporary experimental techniques, each suffers from  drawbacks. X-ray crystallography (\cite{Drenth1999PrinciplesSeparation}) is limited by the ability to grow suitable crystals and to build molecular models into large unit cells; NMR spectroscopy (\cite{Riek2002SolutionStructures}) is restricted by size; electron microscopy (\cite{BAUMEISTER2000624}), affinity purification (\cite{Bauer2003AffinityComplexes}), yeast two hybrid (\cite{PARRISH2006387}) and FRET spectroscopy (Truong and Ikura 2001) suffer from low resolution of the corresponding structural information.
+Single particle cryo electron microscopy (s.p. cryo EM) plays an important role in biomolecular structure determination.
+For many years data obtained by s.p. cryo-EM was of low resolution due to technical limitations. However, recent technical improvements such as direct electron detectors combined with modern computational methods for data acquisition and image processing, coined as "resolution revolution" have led  to an ability to obtain s.p. cryo-EM images of high resolution, i.e., 4 {\AA} and better, \cite{Venien-Bryan2017}, \cite{Dubochet2018}. 
+While the gold rush of high resolution s.p. cryo-EM data continues, the task of determining an atomic structure from s.p. cryo-EM image remains very labourous and can be thought of like a master artwork.
+ Next, we provide a more detailed description of  few computational methods that can be used in atomic structure determination from a s.p. cryo-EM image.
+
+\subsection{Protein Structure Modelling from cryo-EM maps}
+\paragraph{Intermediate resolution }
+Most of the effort in modeling protein structures into intermediate resolution ($5 - 10`$ {\AA}) maps focuses on locating structural motives.
+PowerFit \cite{C.P.vanZundert2015} and Multifit \cite{Tjioe2011} compute candidate  locations  for predefined structural fragments within a map.
+EMatch  \cite{Dror2006}, SSEHunter \cite{Baker2007a}, StrandRoller \cite{Si}, and EMBuilder \cite{Zhou2017} use geometry calculations and a template-based search
+to identify secondary structures.
+Machine Learning algorithms are widely used to identify secondary structure, e.g.  SSELearner \cite{Si2012} (SVM) and \cite{Li2016} (Deep CNNs).
+EMatch \cite{Dror2006} and MULTIFIT \cite{Tjioe2011} exploit   structural motives detection in order to model the  entire protein complex.
+The modelling is based on rigid fitting of template protein structures into a cryo-EM map, while detected structural fragments serve as anchors.
+
+At resolutions better than $4-5$ {{{\AA}}} de novo modeling techniques are being exploited. 
+In addition to  adaptations of the standard X-ray crystallography modeling methods, which tend to be time consuming, several de-novo modeling techniques have been developed to deal specifically with cryoEM density maps\cite{DiMaio2016}.  Pathwalking \cite{Chen2016} detects first pseudo-atom anchors and then applies the travelling salesperson (TSP) combinatorial optimization algorithm to detect the protein backbone.
+MAINMAST \cite{Terashi2018} detects a set of anchor points and calculates the backbone by applying  a minimun spanning tree (MST) approach.
+A recently published method \cite{Zhou2017a}  fits short sequence based structure fragment templates into the density map and applies a Monte Carlo simulated annealing procedure to detect a set of mutually compatible fragments.  
+\subsection{Deep Learning}
+Deep neural networks are powerful learning models that achieve excellent performance in visual and
+speech recognition problems [9, 8].
+Neural networks achieve high performance because they can
+express an arbitrary computation that consists of a modest number of massively parallel nonlinear steps.
+\paragraph{Convolutional neural networks} (CNNs) were proposed by Yann LeCun in 1989 for zip code recognition \cite{Y.LeCunB.BoserJ.S.DenkerD.HendersonR.E.Howard1989}.
+A CNN consists of alternating convolutional and pooling layers optionally followed by fully connected layers.
+The first and last layers are  the input and  output layer respectively, while the other layers are referred to as hidden layers.
+
+Formally, a CNN of depth $D$  is a composition of $D$  parametrized functions $\{f_1,\cdots,f_D\}$, which maps an input vector $\xf$ to an output vector $\yf$:
+\begin{equation}\label{cnn1}
+	\yf = f(\xf) = f_D(\zf,w_D,b_D) \circ, \ldots, \circ f_1(\xf,w_1,b_1),
+\end{equation}
+where $w_k$ and $b_k$ are the weights and biases vectors for the function $f_k$.  The functions $f_k$ are the previously mentioned layers.
+
+Given a set of labeled data pairs $\{(\xf^i,\yf^i)\}_{i=1}^M$, the training process of a CNN defined by \eqref{cnn1} is a process of a numerical solution of the optimization problem:
+\begin{equation}
+\begin{array}{l}
+\mbox{Find } \{w_k, b_k\}_{k=1}^D \mbox{ which minimize:} \\
+\frac{1}{M} \sum\limits_{i=1}^{M}d\left(f(\xf_i),\yf_i\right),
+\end{array}
+\end{equation}
+where $d(\cdot,\cdot)$ is the loss function expressing a penalty for an incorrect classification.
+For a comprehensive discussion of CNNs the reader is referred to  \cite{Goodfellow2016}.
+\newline
+\newline
+The development of the techniques below was motivated by the observation that the current amount of experimental cryo-EM data is not sufficient for DL training and thus the data has to be augmented by data from other sources.
+\paragraph{Domain shift.}
+If a CNN is used on data with  features distribution different from the data it was trained on, its performance degrades.
+The problem is known as \textbf{domain shift}. 
+In this case a \textbf{domain adaptation} technique is required.
+In \textbf{transfer learning }  \cite{Oquab } a pretrained net is fine tuned by training on a relatively small dataset, which has feature distribution resembling the query data.
+The main principle of \textbf{adversarial domain adaptation} techniques (\cite{Tzeng2017}, \cite{Ganin2017}) is to train a CNN such that in a prediction phase of the network only the features  which are common to the train and the test domains are used.
+
+\subsection{Proposed Research}
+We propose to develop and apply deep learning algorithms for locating structural motifs in cryo EM maps of high and medium resolution.
+While all algorithms utilize deep CNN for 3D object detection and classification, the detection goal depends on the  cryo EM map resolution:
+\begin{enumerate}%[(i)]
+    \item CNN for detection of Amino Acids in  High Resolution ($2-4$ {\AA}) maps.
+    \item CNN for annotation of SSEs (helices, beta-strands)  in  Medium Resolution ($4-6$ {\AA}) maps.
+     \item CNN for detection of functionaly significant regions,  such as Binding Sites  in  Medium Resolution  ($4-6$ {\AA}) maps.
+\end{enumerate}
+We  anticipate a  lack of comprehensive experimental training data set for all three CNNs mentioned above, we intend to address it as follows:
+\begin{enumerate}%[(i)]
+    \item For  High Resolution ($2-4$ {\AA}) maps CNN is trained on existing crystallography data. 
+    Since the X-ray crystallography  technique differs from single particle cryo-EM a domain shift problem is anticipated.
+    We suggest to handle it  using Deep Domain Confusion \cite{Tzeng2014} technique. 
+    \item We shell develop a realistic cryo-EM simulations using the VAE-GAN net (\cite{Larsen2016} , \cite{Wu}).
+\end{enumerate}
+
+In the final stage we shall attempt to develop a novel algorithm for de-novo modelling of protein structures from cryo-EM maps at appropriate resolution.
+
+

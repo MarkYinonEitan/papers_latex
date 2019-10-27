@@ -1,0 +1,33 @@
+{\footnotesize
+% Define block styles
+\tikzstyle{decision} = [diamond, draw, fill=blue!20, 
+    text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, 
+    text width=5em, text centered, rounded corners, minimum height=4em]
+
+\tikzstyle{data} = [rectangle, draw,  text width=5em, text centered, rounded corners=0.6cm, minimum height=4em]
+
+\begin{tikzpicture}
+    % Place nodes
+    \node [data] (cryoemmap) {cryo EM map};
+    \node [block, right=0.5cm of cryoemmap] (preproc) {preprocessing};
+    \node [block, right=0.5cm of preproc] (smpl) {sampling};
+    \node [block, below = 0.3cm of smpl] (clsf1) {Classification $N_E$};
+    \node [block, left=0.5cm of  clsf1]  (clsf2) {Classification $N_S$};
+    \node [block, right=0.5cm of clsf1] (clsf3) {Classification $N_{ES}$};
+    \node [block, below=0.3cm of clsf1] (flt) {Post Processing};
+    \node [data, right=0.5cm  of flt] (res) {Amino Acids Annotation};
+
+    \draw[->] (cryoemmap) -- (preproc);
+    \draw[->] (preproc) -- (smpl);
+    \draw[->] (smpl) -- (clsf1);
+    \draw[->] (smpl) -- (clsf2);
+    \draw[->] (smpl) -- (clsf3);
+    \draw[->] (clsf1)--(flt);
+    \draw[->] (clsf2)--(flt);
+    \draw[->] (clsf3)--(flt);
+    \draw[->] (flt)--(res);
+
+
+\end{tikzpicture}
+}

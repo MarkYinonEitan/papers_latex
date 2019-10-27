@@ -1,0 +1,78 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Grant Proposal Mark}
+\author{Mark Rozanov }
+\date{October 2019}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\section{Multithreading Cascade Algorithm for Protein Threading}
+\subsection{Inputs:}
+\begin{itemize}
+    \item cryo-EM map of resolution 6 \AA and better
+    \item Sequences of all chains
+\end{itemize}
+\subsection{Output:}
+Full atomic model  - location and rotamer angles of all amino acids.
+
+\subsection{Preprocessing and Neural Networks}
+\begin{itemize}
+    \item $AAnchor$ - finds position, type  and  confidence of an amino acid in a cryo EM map
+    \item $NextPos(Type_0,Type_1)$. Finds position (and confidence) of an amino acids of $Type_1$, given that the previous amino acid in chain is of $Type_0$. Number of pretrained deep networks for each pair $(Type_0,Type_1)$.
+    \item $DeepRot(Type)$ Finds rotamer angles for a given residue type, cryo-EM map , and $C_\alpha$ location.    		
+\end{itemize}
+
+\subsection{Procedure (assume one big chain with amino acids $a_1 \ldots a_M$)}
+
+\paragraph{Denote} by :\begin{itemize}
+ \item $B_{n,m}^k$ candidate  location and folding of amino acids $a_n,a_{n+1},\ldots,a_m$.
+ $ k$ is a candidate number.
+ \item  $B_{n,m}^k = \{\overline{x}_n^k,\overline{x}_{n+1}^k,\overline{x}_{m}^k,\}$, where $x_j^i$ is the $i$-st candidate for the position of the $C_\alpha$ of an amino acid number $j$.
+ \item $P(B_{n,m}^k)$ probability of the path  $B_{n,m}^k$
+\end{itemize}
+
+\paragraph{Initialize Path}
+Calculate $B^k_{i,i}$ and $P(B^k_{i,i})$ by running AAnchor. 
+
+\paragraph{Step}
+For each $k$, candidate $B^k_{n,m}$ and $P(B^k_{n,m})$, calculate $B^k_{n,m+1}$ and $P(B^k_{n,m+1})$
+\begin{enumerate}
+    \item Find 3D coordinates and probability   of next  amino acid $B^k_{m+1,m+1} = \{\overline{x}^k_{m+1}\}$, $P(B^k_{m+1,m+1})$ using deep NN $NextPos(a_m,a_{m+1})$ 
+    \item Calculate folding energy of the new path $G(B^k_{n,m+1})$ use Rosette Energy function
+    \item update probility:
+    $P(B^k_{n,m+1}) = f \left(P(B^k_{n,m}),P(B^k_{m+1,m+1}),G(B^k_{n,m+1}) \right)$
+\end{enumerate}
+
+\paragraph{Branch}
+If in the step there is more then one candidate from $NextPos(a_m,a_{m+1})$ initiate new path $B^{k+1}_{n,m+1}$
+
+
+\paragraph{End}
+Given two thresholds : $P_{low}$ and $P_{high}$.
+For each path $B^k_{i,j} $ in the memory
+\begin{itemize}
+    \item \textbf{Delete} $B^k_{i,j}$ if $P(B^k_{i,j} < P_{low}$ 
+    \item \textbf{Save local path } $B^k_{i,j}$ if $P(B^k_{i,j} > P_{high}$ 
+\end{itemize}
+
+\paragraph{Refine}
+\begin{itemize}
+	\item Run $DeepRot(Type)$ and obtain rotamer angles
+\end{itemize}
+
+\subsection{Highlights}
+\begin{itemize}
+	\item We can achieve full modelling for resolutions up to 5 \AA.
+	\item While the results of $NextPos(a_m,a_{m+1})$ and $AAnchor$ could be of low confidence, using multyhypothesis approach will enable high precision threading
+	\item In calculation of propabilities $P(B_{n,m}^k)$ evolutionary, SSE and other data can be considered
+	\item The precision of NNs : $AAnchor$, $NextPos$, $DeepRot$ can be improved be retraining on homolog molecules with simulated cryo-EM maps
+	
+\end{itemize}
+
+\end{document}

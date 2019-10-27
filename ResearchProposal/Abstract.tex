@@ -1,0 +1,24 @@
+\section{Abstract}
+Cellular processes are performed and regulated by assemblies of macromolecules. 
+Full understanding of the function, associations and dynamics of  such
+assemblies comes from their detailed atomic structural description. 
+Traditionally structural analysis of a complex is made by integration of the results of various experimental techniques: X-ray crystallography, NMR, cryo electron microscopy (cryo-EM)  and others.
+The output of a cryo-EM experiment is a 3D density map.
+In recent years,  vast progress was achieved in obtaining high-resolution (3.5\AA~ and below) cryo-EM maps.
+However,  modelling an atomic structure from a cryo EM  map remains difficult.
+For high-resolution maps  researchers mostly rely on
+methods developed for X-ray crystallography. 
+Modelling protein assemblies into medium resolution maps is usually based on image processing techniques and has still not yet achieved good performance.
+
+Parallel to the advances in Cryo-EM in the last decade, deep neural networks achieved remarkable performance in various 2D and 3D image processing tasks. 
+Those include Convolutional Neural Networks (CNNs) for image classification, Fully Convolutional Networks (FCN) for semantic image segmentation, Variational AutoEncoders (VAEs) and Generative Adversarial Networks (GANs) for realistic image generation.
+
+We propose a Deep Learning Analysis Framework (DLAF) for integrative structural analysis of cryo-EM maps.
+The proposed framework integrates 3D imaging information from a cryo-EM map with existing sequence and structural data.
+Deep Convolutional Networks  are used to locate structural motifs within a map.
+CNNs are trained on a dataset adjusted to a specific problem.
+This adjustment is  done using the sequence and structural data.
+Realistic cryo-EM map simulation plays a key role in the presented approach.
+While the simulation of experimental maps is crucial for DLAF, it is also a valuable tool for development and analysis of algorithms which work with cryo-EM and can contribute a lot to the structural bioinformatics community.
+Preliminary results of our study show that CNN are capable to successfully detect amino acids in high-resolution cryo-EM maps.
+We also developed a realistic simulation of an experimental cryo-EM map using an adversarial deep learning approach.

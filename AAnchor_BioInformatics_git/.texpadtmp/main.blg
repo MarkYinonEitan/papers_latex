@@ -1,53 +1,48 @@
 This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
-The style file: ../bst2aurth.bst
-Illegal, another \bibstyle command---line 167 of file main.aux
- : \bibstyle
- :          {../bst2aurth}
-I'm skipping whatever remains of this command
-Database file #1: ../men_edit.bib
-Warning--empty booktitle in Si2012
-Warning--can't use both volume and number fields in Si2012
+The style file: agsm.bst
+Database file #1: ../all_ref.bib
+Warning--empty publisher in DiMaio2016
 You've used 29 entries,
-            1814 wiz_defined-function locations,
-            658 strings with 10085 characters,
-and the built_in function-call counts, 7612 in all, are:
-= -- 759
-> -- 251
-< -- 8
-+ -- 112
-- -- 56
-* -- 488
-:= -- 1119
-add.period$ -- 87
+            2909 wiz_defined-function locations,
+            816 strings with 11265 characters,
+and the built_in function-call counts, 212424 in all, are:
+= -- 35287
+> -- 3016
+< -- 0
++ -- 17633
+- -- 945
+* -- 19131
+:= -- 41262
+add.period$ -- 29
 call.type$ -- 29
-change.case$ -- 28
-chr.to.int$ -- 0
-cite$ -- 31
-duplicate$ -- 330
-empty$ -- 764
-format.name$ -- 56
-if$ -- 1749
-int.to.chr$ -- 0
-int.to.str$ -- 29
+change.case$ -- 405
+chr.to.int$ -- 29
+cite$ -- 30
+duplicate$ -- 455
+empty$ -- 885
+format.name$ -- 1051
+if$ -- 38195
+int.to.chr$ -- 5
+int.to.str$ -- 0
 missing$ -- 28
-newline$ -- 146
-num.names$ -- 29
-pop$ -- 83
+newline$ -- 92
+num.names$ -- 310
+pop$ -- 137
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 435
 quote$ -- 0
-skip$ -- 202
+skip$ -- 393
 stack$ -- 0
-substring$ -- 693
-swap$ -- 94
-text.length$ -- 8
+substring$ -- 51032
+swap$ -- 68
+text.length$ -- 406
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 2
-while$ -- 83
-width$ -- 31
-write$ -- 316
-(There was 1 error message)
+type$ -- 114
+warning$ -- 1
+while$ -- 628
+width$ -- 0
+write$ -- 392
+(There was 1 warning)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.29)  24 MAY 2019 14:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.29)  9 SEP 2019 12:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -752,22 +752,6 @@ LaTeX Warning: Label `f:DS_norm_22_RR' multiply defined.
 
 LaTeX Warning: Label `sub@f:DS_norm_22_RR' multiply defined.
 
-
-/Users/markroza/Documents/GitHub/papers_latex/AAnchor_BioInformatics_git/.texpa
-dtmp/main.aux:168: Package natbib Error: Bibliography not compatible with autho
-r-year citations.
-(natbib)                Press <return> to continue in numerical citation style.
-
-
-See the natbib package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168 ...and\NAT@force@numbers{}\NAT@force@numbers
-                                                  
-Check the bibliography entries for non-compliant syntax,
-or select author-year BibTeX style, e.g. plainnat
-
 )
 \openout1 = `main.aux'.
 
@@ -998,6 +982,9 @@ Overfull \hbox (7.44606pt too wide) in paragraph at lines 32--116
  []
 
 ) (./results.tex
+Underfull \vbox (badness 1584) has occurred while \output is active []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 10--10
 []\OT1/cmr/bx/n/10 Confusion Ma-trix and Re-li-a-bil-ity
  []
@@ -1071,9 +1058,8 @@ LaTeX Warning: Command \r invalid in math mode on input line 76.
 
 LaTeX Warning: Command \r invalid in math mode on input line 82.
 
-[5 <./pics/CM_22_SS.png> <./pics/ss22_acc.png> <./pics/DS_22_SS.png> <./pics/DS
-_norm_22_SS.png>]
-<pics/CM_22_RR.png, id=53, 462.528pt x 346.896pt>
+[5 <./pics/CM_22_SS.png> <./pics/ss22_acc.png>]
+<pics/CM_22_RR.png, id=51, 462.528pt x 346.896pt>
 File: pics/CM_22_RR.png Graphic file (type png)
 <use pics/CM_22_RR.png>
 Package pdftex.def Info: pics/CM_22_RR.png  used on input line 105.
@@ -1083,7 +1069,7 @@ Overfull \hbox (27.88449pt too wide) in paragraph at lines 105--106
 [][] 
  []
 
-<pics/rr22_acc.png, id=54, 462.528pt x 346.896pt>
+<pics/rr22_acc.png, id=52, 462.528pt x 346.896pt>
 File: pics/rr22_acc.png Graphic file (type png)
 <use pics/rr22_acc.png>
 Package pdftex.def Info: pics/rr22_acc.png  used on input line 112.
@@ -1099,7 +1085,7 @@ LaTeX Warning: Command \r invalid in math mode on input line 117.
 
 LaTeX Warning: Command \r invalid in math mode on input line 117.
 
-<pics/DS_22_RR.png, id=55, 462.528pt x 346.896pt>
+<pics/DS_22_RR.png, id=53, 462.528pt x 346.896pt>
 File: pics/DS_22_RR.png Graphic file (type png)
 <use pics/DS_22_RR.png>
 Package pdftex.def Info: pics/DS_22_RR.png  used on input line 123.
@@ -1114,7 +1100,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--124
 
  []
 
-<pics/DS_norm_22_RR.png, id=56, 462.528pt x 346.896pt>
+<pics/DS_norm_22_RR.png, id=54, 462.528pt x 346.896pt>
 File: pics/DS_norm_22_RR.png Graphic file (type png)
 <use pics/DS_norm_22_RR.png>
 Package pdftex.def Info: pics/DS_norm_22_RR.png  used on input line 130.
@@ -1124,7 +1110,7 @@ Overfull \hbox (10.32805pt too wide) in paragraph at lines 130--131
 [][] 
  []
 
-<pics/CM_22_RSR.png, id=57, 462.528pt x 346.896pt>
+<pics/CM_22_RSR.png, id=55, 462.528pt x 346.896pt>
 File: pics/CM_22_RSR.png Graphic file (type png)
 <use pics/CM_22_RSR.png>
 Package pdftex.def Info: pics/CM_22_RSR.png  used on input line 142.
@@ -1134,7 +1120,7 @@ Overfull \hbox (27.88449pt too wide) in paragraph at lines 142--143
 [][] 
  []
 
-<pics/rsr22_acc.png, id=58, 462.528pt x 346.896pt>
+<pics/rsr22_acc.png, id=56, 462.528pt x 346.896pt>
 File: pics/rsr22_acc.png Graphic file (type png)
 <use pics/rsr22_acc.png>
 Package pdftex.def Info: pics/rsr22_acc.png  used on input line 149.
@@ -1178,7 +1164,7 @@ Underfull \hbox (badness 2941) in paragraph at lines 168--168
 \OT1/cmr/m/n/9 size nor-mal-ized to the
  []
 
-<pics/rel_PRO_22_SRS.png, id=59, 462.528pt x 346.896pt>
+<pics/rel_PRO_22_SRS.png, id=57, 462.528pt x 346.896pt>
 File: pics/rel_PRO_22_SRS.png Graphic file (type png)
 <use pics/rel_PRO_22_SRS.png>
 Package pdftex.def Info: pics/rel_PRO_22_SRS.png  used on input line 179.
@@ -1188,7 +1174,7 @@ Overfull \hbox (27.88449pt too wide) in paragraph at lines 179--180
 [][] 
  []
 
-<pics/rel_LEU_22_SRS.png, id=60, 462.528pt x 346.896pt>
+<pics/rel_LEU_22_SRS.png, id=58, 462.528pt x 346.896pt>
 File: pics/rel_LEU_22_SRS.png Graphic file (type png)
 <use pics/rel_LEU_22_SRS.png>
 Package pdftex.def Info: pics/rel_LEU_22_SRS.png  used on input line 182.
@@ -1198,7 +1184,7 @@ Overfull \hbox (27.88449pt too wide) in paragraph at lines 182--183
 [][] 
  []
 
-<pics/rel_VAL_22_SRS.png, id=61, 462.528pt x 346.896pt>
+<pics/rel_VAL_22_SRS.png, id=59, 462.528pt x 346.896pt>
 File: pics/rel_VAL_22_SRS.png Graphic file (type png)
 <use pics/rel_VAL_22_SRS.png>
 Package pdftex.def Info: pics/rel_VAL_22_SRS.png  used on input line 188.
@@ -1208,7 +1194,7 @@ Overfull \hbox (27.88449pt too wide) in paragraph at lines 188--189
 [][] 
  []
 
-<pics/rel_GLY_22_SRS.png, id=62, 462.528pt x 346.896pt>
+<pics/rel_GLY_22_SRS.png, id=60, 462.528pt x 346.896pt>
 File: pics/rel_GLY_22_SRS.png Graphic file (type png)
 <use pics/rel_GLY_22_SRS.png>
 Package pdftex.def Info: pics/rel_GLY_22_SRS.png  used on input line 191.
@@ -1248,8 +1234,16 @@ LaTeX Warning: Command \r invalid in math mode on input line 206.
 
 LaTeX Warning: Command \r invalid in math mode on input line 206.
 
-[6 <./pics/CM_22_RR.png> <./pics/rr22_acc.png> <./pics/DS_22_RR.png> <./pics/DS
-_norm_22_RR.png> <./pics/CM_22_RSR.png> <./pics/rsr22_acc.png>]
+
+LaTeX Warning: Text page 6 contains only floats.
+
+
+Overfull \vbox (0.56204pt too high) has occurred while \output is active []
+
+
+[6 <./pics/DS_22_SS.png> <./pics/DS_norm_22_SS.png> <./pics/CM_22_RR.png> <./pi
+cs/rr22_acc.png> <./pics/DS_22_RR.png> <./pics/DS_norm_22_RR.png> <./pics/CM_22
+_RSR.png> <./pics/rsr22_acc.png>]
 Underfull \vbox (badness 2111) has occurred while \output is active []
 
 
@@ -1305,8 +1299,14 @@ LaTeX Warning: Command \r invalid in math mode on input line 219.
 LaTeX Warning: Command \r invalid in math mode on input line 219.
 
 
-Underfull \hbox (badness 2080) in paragraph at lines 219--220
-\OT1/cmr/m/n/9 thrax toxin pro-tec-
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
+[]|\OT1/cmr/m/n/9 EMD-6224 ,$2\OML/cmm/m/it/9 :\OT1/cmr/m/n/9 9[]\OML/cmm/m/it/
+9 A$
+ []
+
+
+Underfull \hbox (badness 2088) in paragraph at lines 219--220
+\OT1/cmr/m/n/9 An-thrax toxin pro-
  []
 
 
@@ -1314,6 +1314,11 @@ LaTeX Warning: Command \r invalid in math mode on input line 221.
 
 
 LaTeX Warning: Command \r invalid in math mode on input line 221.
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 221--222
+\OT1/cmr/m/n/9 s-enin Pore (Bokori-
+ []
 
 <pics/s3_293_acc.png, id=72, 462.528pt x 346.896pt>
 File: pics/s3_293_acc.png Graphic file (type png)
@@ -1464,8 +1469,7 @@ LaTeX Warning: Command \r invalid in math mode on input line 303.
 LaTeX Warning: Command \r invalid in math mode on input line 303.
 
 [7 <./pics/rel_PRO_22_SRS.png> <./pics/rel_LEU_22_SRS.png> <./pics/rel_VAL_22_S
-RS.png> <./pics/rel_GLY_22_SRS.png> <./pics/s3_293_acc.png> <./pics/r3_293_acc.
-png>]
+RS.png> <./pics/rel_GLY_22_SRS.png>]
 Underfull \hbox (badness 1112) in paragraph at lines 313--314
 []\OT1/cmr/m/n/10 For each res-o-lu-tion case we tested a num-ber
  []
@@ -1476,6 +1480,13 @@ LaTeX Warning: Command \r invalid in math mode on input line 315.
 
 LaTeX Warning: Command \r invalid in math mode on input line 321.
 
+
+LaTeX Warning: Text page 8 contains only floats.
+
+[8 <./pics/s3_293_acc.png> <./pics/r3_293_acc.png> <./pics/CM_29_RR.png> <./pic
+s/CM_31_RR.png> <./pics/rel_PRO_29_RR.png> <./pics/rel_LEU_29_RR.png> <./pics/r
+el_VAL_29_RR.png> <./pics/rel_GLY_29_RR.png> <./pics/rel_PRO_31_RR.png> <./pics
+/rel_LEU_31_RR.png> <./pics/rel_VAL_31_RR.png> <./pics/rel_GLY_31_RR.png>]
 
 LaTeX Warning: Command \r invalid in math mode on input line 326.
 
@@ -1491,10 +1502,7 @@ LaTeX Warning: Command \r invalid in math mode on input line 332.
 
 LaTeX Warning: Command \r invalid in math mode on input line 332.
 
-[8 <./pics/CM_29_RR.png> <./pics/CM_31_RR.png> <./pics/rel_PRO_29_RR.png> <./pi
-cs/rel_LEU_29_RR.png> <./pics/rel_VAL_29_RR.png> <./pics/rel_GLY_29_RR.png> <./
-pics/rel_PRO_31_RR.png> <./pics/rel_LEU_31_RR.png> <./pics/rel_VAL_31_RR.png> <
-./pics/rel_GLY_31_RR.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 338--338
 []|\OT1/cmr/m/n/9 Amino
  []
@@ -1689,39 +1697,72 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 409--410
 
 LaTeX Warning: Command \r invalid in math mode on input line 3.
 
-
-Underfull \vbox (badness 1137) has occurred while \output is active []
-
- [9 <./pics/map_PRO.png>]
+[9 <./pics/map_PRO.png>]
 
 LaTeX Warning: Command \r invalid in math mode on input line 8.
 
 
 LaTeX Warning: Command \r invalid in math mode on input line 8.
 
-) (./references.tex
+
+Underfull \vbox (badness 1924) has occurred while \output is active []
+
+)
+(./references.tex
 (/Users/markroza/Documents/GitHub/papers_latex/AAnchor_BioInformatics_git/.texp
 adtmp/main.bbl
-Underfull \hbox (badness 3803) in paragraph at lines 14--18
-[]\OT1/cmr/m/n/10 A. Barte-saghi, et al.  2.2 A res-o-lu-tion
+Overfull \hbox (48.94272pt too wide) in paragraph at lines 15--20
+\OT1/cmr/bx/n/10 URL: \OT1/cmr/m/it/10 http://science.sciencemag.org/content/34
+8/6239/1147 
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 38--42
-[]\OT1/cmr/m/n/10 Z. Yu and C. Ba-jaj.  Com-pu-ta-tional ap-
- []
-
-
-Underfull \hbox (badness 1735) in paragraph at lines 38--42
-\OT1/cmr/m/n/10 large biomolec-u-lar com-plexes.  \OT1/cmr/m/it/10 IEEE/ACM
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+[]\OT1/cmr/m/n/10 Chollet, F. & Oth-ers (2015), `Keras',
  []
 
 [10 <./pics/lys_pore_GLY_LEU_LYS_TYR.png>]
-Underfull \hbox (badness 1107) in paragraph at lines 138--141
-[]\OT1/cmr/m/n/10 A. Merk, et al.  Break-ing cryo-em res-o-lu-
+Underfull \hbox (badness 2707) in paragraph at lines 59--64
+[]\OT1/cmr/m/n/10 Dror, O., Lasker, K., Nussi-nov, R. & Wolf-
  []
 
-)) [11]
+
+Underfull \hbox (badness 4846) in paragraph at lines 59--64
+\OT1/cmr/m/n/10 for align-ing atomic res-o-lu-tion sub-units into
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 59--64
+\OT1/cmr/m/n/10 intermediate-resolution cryo-EM maps of large
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 59--64
+\OT1/cmr/m/n/10 macro-molec-u-lar as-sem-blies', \OT1/cmr/m/it/10 Acta Crys-tal
+-logr.,
+ []
+
+
+Overfull \hbox (123.1728pt too wide) in paragraph at lines 66--69
+\OT1/cmr/bx/n/10 URL: \OT1/cmr/m/it/10 https://www.sciencedirect.com/science/ar
+ticle/pii/S016786550500303X 
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 136--139
+\OT1/cmr/m/n/10 `Lin-ear re-gres-sion for face recog-ni-tion', \OT1/cmr/m/it/10
+ IEEE
+ []
+
+[11]
+Underfull \hbox (badness 1515) in paragraph at lines 186--190
+\OT1/cmr/m/n/10 biomolec-u-lar com-plexes', \OT1/cmr/m/it/10 IEEE/ACM Trans-ac-
+
+ []
+
+)) [12
+
+]
 (/Users/markroza/Documents/GitHub/papers_latex/AAnchor_BioInformatics_git/.texp
 adtmp/main.aux)
 
@@ -1729,10 +1770,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 17417 strings out of 492649
- 358986 string characters out of 6129622
- 430187 words of memory out of 5000000
- 20894 multiletter control sequences out of 15000+600000
+ 17415 strings out of 492649
+ 358258 string characters out of 6129622
+ 432637 words of memory out of 5000000
+ 20892 multiletter control sequences out of 15000+600000
  15457 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,13n,67p,859b,789s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1762,10 +1803,10 @@ t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist
 fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2018/texmf-dist/f
 onts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/markroza/Documents/GitHub/papers_latex/AAnchor_BioInfo
-rmatics_git/.texpadtmp/main.pdf (11 pages, 2385349 bytes).
+rmatics_git/.texpadtmp/main.pdf (12 pages, 2392901 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 105 compressed objects within 2 object streams
+ 204 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

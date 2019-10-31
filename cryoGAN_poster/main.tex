@@ -1,74 +1,78 @@
 \documentclass[25pt, a0paper, portrait]{tikzposter}
 \usepackage[utf8]{inputenc}
  \usepackage{amsmath}% http://ctan.org/pkg/amsmath
-
-\title{Tikz Poster Example}
-\author{ShareLaTeX Team}
-\date{\today}
-\institute{ShareLaTeX Institute}
+\usepackage{natbib}
  
 \usepackage{blindtext}
 \usepackage{comment}
- 
+\usepackage{pifont}
+
 \usetheme{Rays}
  
 \begin{document}
- 
-\maketitle
- 
+% 
+\
+\title{ \LARGE{Simulating cryo-EM maps using a  Generative Adversarial Network (cryo-GAN)}}
+%
+\author{Mark Rozanov $\cdot$ Haim J. Wolfson}
+\institute{Blavatnik School of Computer Science, Tel-Aviv University}
+% 
+%
+% 
+\maketitle[width=0.8\textwidth]
+%\node[above right,opacity=0.9003,inner sep=0pt,outer sep=0pt] at (0,0) { \includegraphics[width=0.28\textwidth]{logoTA.jpg}};
+
 \block{Abstract}{    \input{abstract}}
  
 \begin{columns}
-    \column{0.5}
-    \block{Motivation: When a simulation is needed}{ \input{motivation}}
+    \column{0.6}
+    \block{1. Motivation: When a simulation is required}{ \input{motivation}}
  
-    \column{0.5}
-    \block{Current Method - pdb2mrc from EMAN}{\input{current}}
+    \column{0.4}
+    \block{2. Current Method: \\  pdb2mrc from EMAN \cite{Ludtke1999}}{\input{current} }
 \end{columns}
 
 \begin{columns}
-    \column{0.5}
-    \block{Challenge}{ \input{motivation}} 
-    \column{0.5}
-     \block{Solution}{ \input{motivation}}
+   \column{0.5}
+\block{3. Generating a  Realistic Map -\\ use VAE \cite{Larsen2016}  Neural Network }
+{\input{vae}}
+   \column{0.5}
+    \block{4. Make more Realistic - Adversarial Approach \cite{Goodfellow2016}}{ \input{gan}}
 \end{columns}
-
+%
  
+
 \begin{columns}
     \column{0.7}
-    \block{VAE-GAN architecture}
-    {
-        \begin{tikzfigure}
-           % \includegraphics[width=0.4\textwidth]{images/lion-logo.png}
-        \end{tikzfigure}
+    \block{6. Results: cryoEM map of STING protein (pdb ID 6nt8) }
+    {	
+    		\input{res}
     }
     \column{0.3}
-    \block{Variatinal Auto Encoder Networks}{\input{motivation}}
-    \block{Generattive Adversarial Networks}{\input{motivation}}
-    \block{VAE-GANs}{\input{motivation}}
+    \block{7. Evaluation}{\input{eval}}
+        
+	\note[
+        targetoffsetx=-5.5cm, 
+        targetoffsety=-9.5cm, 
+        width=0.22\linewidth
+        ]{e-mail: \textit{markroza@tauex.tau.ac.il}  }
     
-\end{columns}
-\begin{columns}
-    \column{0.7}
-    \block{Results}
-    {
-        \begin{tikzfigure}
-           % \includegraphics[width=0.4\textwidth]{images/lion-logo.png}
-        \end{tikzfigure}
-    }
-    \column{0.3}
-    \block{Evaluation}
+
     
 \end{columns}
  
-%     \note[
-  %      targetoffsetx=-9cm, 
-    %    targetoffsety=-6.5cm, 
-      %  width=0.5\linewidth
-        %]
-        %{e-mail \texttt{sharelatex@sharelatex.com}}
+\begin{columns}
+    \column{0.33}
+    \block{8. VAE-GAN \cite{Wu}: Training VAE network to confuse the discriminator}
+    {
+        \begin{tikzfigure}
+           \includegraphics[width=0.28\textwidth]{vae-gan.png}
+        \end{tikzfigure}
+    }
+    \column{0.4} 
+    \block{}{\input{refs}}
+    \column{0.25} 
+    \block{Acknowledgments}{\input{aknwldgxs.tex}}
+\end{columns}
 
- \block{References}{}
- 
- \block{Aknowledments}{}
 \end{document}

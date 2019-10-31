@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.29)  27 OCT 2019 11:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.29)  29 OCT 2019 15:14
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
@@ -720,63 +719,82 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
+(/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip49
+\bibsep=\skip50
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count131
+)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count131
-\c@Blindtext=\count132
-\c@blind@countparstart=\count133
-\blind@countxx=\count134
-\blindtext@numBlindtext=\count135
-\blind@countyy=\count136
-\c@blindlist=\count137
-\c@blindlistlevel=\count138
-\c@blindlist@level=\count139
-\blind@listitem=\count140
-\c@blind@listcount=\count141
-\c@blind@levelcount=\count142
-\blind@mathformula=\count143
-\blind@Mathformula=\count144
-\c@blind@randomcount=\count145
-\c@blind@randommax=\count146
-\c@blind@pangramcount=\count147
-\c@blind@pangrammax=\count148
+\c@blindtext=\count132
+\c@Blindtext=\count133
+\c@blind@countparstart=\count134
+\blind@countxx=\count135
+\blindtext@numBlindtext=\count136
+\blind@countyy=\count137
+\c@blindlist=\count138
+\c@blindlistlevel=\count139
+\c@blindlist@level=\count140
+\blind@listitem=\count141
+\c@blind@listcount=\count142
+\c@blind@levelcount=\count143
+\blind@mathformula=\count144
+\blind@Mathformula=\count145
+\c@blind@randomcount=\count146
+\c@blind@randommax=\count147
+\c@blind@pangramcount=\count148
+\c@blind@pangrammax=\count149
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write5
 
-Excluding comment 'comment') (./main.aux)
+Excluding comment 'comment')
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
 
 ABD: EveryShipout initializing macros
 (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count149
+\scratchcounter=\count150
 \scratchdimen=\dimen310
 \scratchbox=\box72
-\nofMPsegments=\count150
-\nofMParguments=\count151
+\nofMPsegments=\count151
+\nofMParguments=\count152
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count152
+\MPscratchCnt=\count153
 \MPscratchDim=\dimen311
-\MPnumerator=\count153
-\makeMPintoPDFobject=\count154
+\MPnumerator=\count154
+\makeMPintoPDFobject=\count155
 \everyMPtoPDFconversion=\toks37
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -867,29 +885,113 @@ e
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 1 in font nullfont!
-(./abstract.tex) (./motivation.tex) (./current.tex) (./motivation.tex)
-(./motivation.tex) (./motivation.tex) (./motivation.tex) (./motivation.tex)
-[1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./main.aux) ) 
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <51.6> not available
+(Font)              size <24.88> substituted on input line 22.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <35.83> not available
+(Font)              size <24.88> substituted on input line 22.
+
+(./abstract.tex) (./motivation.tex
+LaTeX Font Info:    Try loading font information for OMS+aer on input line 3.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ae/omsaer.fd
+File: omsaer.fd 1999/12/27
+)
+LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <43> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
+) (./current.tex
+Overfull \hbox (18.69295pt too wide) in paragraph at lines 4--17
+ [] 
+ []
+
+) (./vae.tex
+<VAE.png, id=31, 563.10374pt x 115.43124pt>
+File: VAE.png Graphic file (type png)
+<use VAE.png>
+Package pdftex.def Info: VAE.png  used on input line 2.
+(pdftex.def)             Requested size: 1076.78723pt x 220.77121pt.
+
+Overfull \hbox (12.65395pt too wide) in paragraph at lines 2--3
+ [] 
+ []
+
+) (./gan.tex
+<gan.png, id=33, 743.77875pt x 202.7575pt>
+File: gan.png Graphic file (type png)
+<use gan.png>
+Package pdftex.def Info: gan.png  used on input line 2.
+(pdftex.def)             Requested size: 1076.78723pt x 293.54533pt.
+
+Overfull \hbox (12.65395pt too wide) in paragraph at lines 2--3
+ [] 
+ []
+
+) (./res.tex
+<mol_map.png, id=34, 1252.68pt x 1373.13pt>
+File: mol_map.png Graphic file (type png)
+<use mol_map.png>
+Package pdftex.def Info: mol_map.png  used on input line 4.
+(pdftex.def)             Requested size: 450.09627pt x 493.36263pt.
+
+
+LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <29.86> not available
+(Font)              size <24.88> substituted on input line 6.
+
+<real_map.png, id=35, 368.87813pt x 449.68pt>
+File: real_map.png Graphic file (type png)
+<use real_map.png>
+Package pdftex.def Info: real_map.png  used on input line 10.
+(pdftex.def)             Requested size: 450.09627pt x 548.69113pt.
+<gen_map.png, id=36, 319.1925pt x 364.86313pt>
+File: gen_map.png Graphic file (type png)
+<use gen_map.png>
+Package pdftex.def Info: gen_map.png  used on input line 16.
+(pdftex.def)             Requested size: 450.09627pt x 514.5016pt.
+) (./eval.tex
+LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <29.86> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
+)
+<vae-gan.png, id=37, 748.7975pt x 272.01625pt>
+File: vae-gan.png Graphic file (type png)
+<use vae-gan.png>
+Package pdftex.def Info: vae-gan.png  used on input line 71.
+(pdftex.def)             Requested size: 670.00256pt x 243.40529pt.
+
+Overfull \hbox (5.39857pt too wide) in paragraph at lines 71--71
+ [] 
+ []
+
+(./refs.tex (./main.bbl)) (./aknwldgxs.tex) [1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./VAE.p
+ng> <./gan.png> <./mol_map.png> <./real_map.png> <./gen_map.png> <./vae-gan.png
+>] (./main.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 26.72pt have occurred.
+
+ ) 
 Here is how much of TeX's memory you used:
- 17623 strings out of 492649
- 380014 string characters out of 6129622
- 514567 words of memory out of 5000000
- 21063 multiletter control sequences out of 15000+600000
- 44907 words of font info for 92 fonts, out of 8000000 for 9000
+ 18232 strings out of 492649
+ 389133 string characters out of 6129622
+ 532906 words of memory out of 5000000
+ 21621 multiletter control sequences out of 15000+600000
+ 65139 words of font info for 126 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,8n,84p,814b,867s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmcsc10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr17.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mti12.pfb>
-Output written on main.pdf (1 page, 63447 bytes).
+ 62i,10n,84p,814b,947s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on main.pdf (1 page, 2858518 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 115 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 

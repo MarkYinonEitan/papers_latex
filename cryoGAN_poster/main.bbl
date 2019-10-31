@@ -1,0 +1,58 @@
+\begin{thebibliography}{1}
+
+\bibitem{C.P.vanZundert2015}
+G.~{C.P.van Zundert} and A.~{M.J.J. Bonvin}.
+\newblock {Fast and sensitive rigid-body fitting into cryo-EM density maps with
+  PowerFit}.
+\newblock {\em AIMS Biophysics}, 2015.
+
+\bibitem{Dror2007}
+O.~Dror, K.~Lasker, R.~Nussinov, and H.~Wolfson.
+\newblock {EMatch: An efficient method for aligning atomic resolution subunits
+  into intermediate-resolution cryo-EM maps of large macromolecular
+  assemblies}.
+\newblock {\em Acta Crystallogr., Sect D}, D63(1):42----49, 2007.
+
+\bibitem{Goodfellow2016}
+I.~Goodfellow, Y.~Bengio, and A.~Courville.
+\newblock {\em {Deep Learning}}.
+\newblock MIT Press, 2016.
+
+\bibitem{Larsen2016}
+Larsen.
+\newblock {Autoencoding beyond pixels using a learned similarity metric}.
+\newblock 2016.
+
+\bibitem{Li2016}
+R.~Li, D.~Si, T.~Zeng, S.~Ji, and J.~He.
+\newblock {Deep convolutional neural networks for detecting secondary
+  structures in protein density maps from cryo-electron microscopy}.
+\newblock In {\em 2016 IEEE International Conference on Bioinformatics and
+  Biomedicine (BIBM)}, 2016.
+
+\bibitem{Ludtke1999}
+S.~J. Ludtke, P.~R. Baldwin, and W.~Chiu.
+\newblock {EMAN : Semiautomated Software for High-Resolution Single-Particle
+  Reconstructions}.
+\newblock {\em Journal ofStructural Biology}, 128:82--97, 1999.
+
+\bibitem{Rozanov2018}
+M.~Rozanov and H.~J. Wolfson.
+\newblock {AAnchor: CNN guided detection of anchor amino acids in high
+  resolution cryo-EM density maps}.
+\newblock In {\em 2018 IEEE International Conference on Bioinformatics and
+  Biomedicine (BIBM)}, pages 88--91, 2018.
+
+\bibitem{Tjioe2011}
+E.~Tjioe, K.~Lasker, B.~Webb, H.~J. Wolfson, and A.~Sali.
+\newblock {MultiFit: A web server for fitting multiple protein structures into
+  their electron microscopy density map}.
+\newblock {\em Nucleic Acids Research}, 2011.
+
+\bibitem{Wu}
+J.~Wu, C.~Zhang, T.~Xue, W.~T. Freeman, and J.~B. Tenenbaum.
+\newblock {Learning a Probabilistic Latent Space of Object Shapes via 3D
+  Generative-Adversarial Modeling}.
+\newblock Technical report.
+
+\end{thebibliography}
